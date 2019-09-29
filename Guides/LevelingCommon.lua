@@ -21810,10 +21810,6 @@ goto 63.14,48.73
 'Follow the path |q Lineage of Tooth and Claw/Take the Werewolf to the Cave
 |tip Manually skip to the next step.
 step
-goto 64.17,51.18
-click The Illusion of Death
-lorebook The Illusion of Death/1/9/3
-step
 goto 61.62,51.14
 'Take the Captured Werewolf to the Cave |q Lineage of Tooth and Claw/Take the Werewolf to the Cave
 step
@@ -21840,6 +21836,10 @@ goto 66.89,51.05
 talk Gloria Fausta
 'Tell her _"No, not this way. We need you alive. I'll handle the Duke."_
 talk Gloria Fausta |q Lineage of Tooth and Claw/Talk to Gloria Fausta
+step
+goto 64.17,51.18
+click The Illusion of Death
+lorebook The Illusion of Death/1/9/3
 step
 'Open your map to Glenumbra:
 click Aldcroft Wayshrine
