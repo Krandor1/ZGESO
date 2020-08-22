@@ -17551,10 +17551,6 @@ goto alinor_base 51.15,86.01
 step
 goto alinor_base 56.67,85.58
 step
-goto alinor_base 61.43,50.28
-talk Battlereeve Tanerline
-accept The Abyssal Cabal
-step
 goto alinor_base 64.50,46.25
 click Alinor's Royal Palace
 |tip Manually skip to the next step.
@@ -18156,7 +18152,7 @@ goto kingshavenint1_base 58.92,75.38
 step
 goto kingshavenint1_base 58.95,75.31
 talk Mehdze
-'You must decide the choice.
+'Decide a choice.
 'Choose _The truth should be heard..._ |q Savage Truths/Talk to Mehdze |or
 '_OR_
 'Choose _I wouldn't stake my career..._ |q Savage Truths/Talk to Mehdze |or
@@ -19120,6 +19116,12 @@ click Ancient Ruins |q The Tower Sentinels/Find the King's Haven Pass Ruins
 step
 goto kingshavenint1_base 60.54,69.13
 step
+goto kingshavenint1_base 67.82,69.20
+'Kill the waves of spiders that appear
+|tip Manually skip to the next step.
+step
+goto kingshavenint1_base 80.61,66.20
+step
 goto kingshavenint1_base 82.54,50.66
 kill Keetas the Weaver
 |tip Manually skip to the next step.
@@ -19129,71 +19131,67 @@ goto kingshavenint1_base 72.84,49.83
 |tip Manually skip to the next step.
 step
 goto kingshavenint1_base 72.48,49.24
-click Ancient Ruins
-|tip Manually skip to the next step.
+click Ancient Ruins |q The Tower Sentinels/Find Sapiarch Imedril
 step
 goto kingshavenint1_base 64.11,35.43
-'Press _E_ to Burn _Mephala's Webs_
-|tip Manually skip to the next step.
+'Press _E_ to Burn _Mephala's Webs_ |q The Tower Sentinels/Help Save Sapiarch Imedril
 step
 goto kingshavenint1_base 64.78,37.12
 'Press _E_ to Take _Dawnstar Gem_
-'Take Dawnstar Gem
-|tip Manually skip to the next step.
+'Take Dawnstar Gem |q The Tower Sentinels/Take the Dawnstar Gem
 step
 goto kingshavenint1_base 64.61,36.88
-talk Sapiarch Imedril
-|tip Manually skip to the next step.
+talk Sapiarch Imedril |q The Tower Sentinels/Talk to Sapiarch Imedril
 step
 goto kingshavenint1_base 60.30,36.52
-click Coral-Splitter Caves
-|tip Manually skip to the next step.
+click Coral-Splitter Caves |q The Tower Sentinels/Leave the Ruins
 step
-'Open your map:
-click Lillandril Wayshrine
+'Open your map. Right click twice to bring up the Summerset map.
 'Travel to the _Lillandril_ Wayshrine
 |tip Manually skip to the next step.
 step
+goto lillandrill_base 46.34,74.68
+'Return to Tindoria |q The Perils of Art/Return to Tindoria
+step
 goto lillandrill_base 41.66,76.81
-talk Vaerelel
-'Select _I'm going to complete my contract with Tindoria._
-|tip Manually skip to the next step.
+talk Vaerelel |q The Perils of Art/Talk to Vaerelel
+step
+goto lillandrill_base 41.66,76.81
+talk Vaerelel 
+'Choose _I'm going to complete my contract with Tindoria._ |q The Perils of Art/Stay Loyal to Tindoria
 step
 goto lillandrill_base 36.06,85.51
 talk Tindoria
-|tip Manually skip to the next step.
+'Deliver Reagents to Tindoria |q The Perils of Art/Deliver Reagents to Tindoria
+step
+goto lillandrill_base 36.06,85.51
+talk Tindoria
+turnin The Perils of Art
 step
 goto lillandrill_base 40.54,69.35
-'Run up the stairs from here
-|tip Manually skip to the next step.
 step
 goto lillandrill_base 49.95,53.73
-'Run up the stairs from here
-|tip Manually skip to the next step.
+step
+goto lillandrill_base 53.71,40.02
 step
 goto lillandrill_base 49.25,38.92
-talk Rigurt the Brash
-|tip Manually skip to the next step.
+talk Rigurt the Brash |q Culture Clash/Favor for Justiciar Rolumdel
 step
 goto lillandrill_base 45.65,39.90
 click Fighters Guild
 |tip Manually skip to the next step.
 step
 goto lillandrill_base 44.13,45.29
-talk Emile Oncent
-|tip Manually skip to the next step.
+talk Emile Oncent |q Murder In Lillandril/Talk to Emile
 step
 goto lillandrill_base 45.56,44.15
-talk Calawende
-|tip Manually skip to the next step.
+talk Calawende |q Murder In Lillandril/Talk to Calawende
 step
 goto lillandrill_base 44.79,41.78
 click Lillandril
 |tip Manually skip to the next step.
 step
 goto lillandrill_base 53.69,40.94
-'Run down the stairs from here
-|tip Manually skip to the next step.
 step
 goto lillandrill_base 52.36,50.47
 click The Shrewd Brew
@@ -19204,31 +19202,24 @@ goto lillandrill_base 58.12,51.58
 |tip Manually skip to the next step.
 step
 goto lillandrill_base 56.00,51.39
-'Pass through the archway here
+'Enter Galidor's Room
 |tip Manually skip to the next step.
 step
 goto lillandrill_base 54.76,51.35
-'Press _E_ to Examine _Galidor's Love Poem_
-|tip Manually skip to the next step.
+'Press _E_ to Examine _Galidor's Love Poem_ |q Murder In Lillandril/.*Search Galidor's Room.*: |count 1
 step
 goto lillandrill_base 53.86,50.14
-'Press _E_ to Examine _Galidor's Scribbled Note_
-|tip Manually skip to the next step.
+'Press _E_ to Examine _Galidor's Scribbled Note_ |q Murder In Lillandril/.*Search Galidor's Room.*: |count 2
 step
 goto lillandrill_base 54.86,50.45
-'Press _E_ to Examine _Galidor's Grocery List_
-|tip Manually skip to the next step.
+'Press _E_ to Examine _Galidor's Grocery List_ |q Murder In Lillandril/.*Search Galidor's Room.*: |count 3
 step
 goto lillandrill_base 53.64,53.52
-'Press _E_ to Use _Galidor's Warded Ledger_
-'Select _Mischief._
-'Select _For._
-'Select _Money._
-|tip Manually skip to the next step.
+'Press _E_ to Use _Galidor's Warded Ledger_ |q Murder In Lillandril/Unlock Galidor's Ledger
+'Select _Mischief._, then _For._, then _Money._
 step
 goto lillandrill_base 53.64,53.52
-'Press _E_ to Take _Galidor's Ledger_
-|tip Manually skip to the next step.
+'Press _E_ to Take _Galidor's Ledger_ |q Murder In Lillandril/Read Galidor's Ledger
 step
 goto lillandrill_base 53.27,51.00
 'Run down to the first floor and
@@ -19236,120 +19227,120 @@ click Lillandril
 |tip Manually skip to the next step.
 step
 goto lillandrill_base 51.12,50.17
-talk Calawende
-|tip Manually skip to the next step.
+talk Calawende |q Murder In Lillandril/Talk to Calawende
 step
-goto lillandrill_base 51.12,50.17
-'Run down the stairs from here and continue to docks
-|tip Manually skip to the next step.
+goto lillandrill_base 48.79,56.32
+step
+goto lillandrill_base 43.43,61.84
 step
 goto lillandrill_base 42.00,77.51
-talk Milerond
-|tip Manually skip to the next step.
+talk Milerond |q Murder In Lillandril/Talk to Milerond
 step
-goto lillandrill_base 50.81,78.89
-'Continue to the end of the pier
-|tip Manually skip to the next step.
+goto lillandrill_base 45.05,75.22
 step
-goto summerset_base 16.74,42.63
-'Run along the beach to you reach Saltbreeze Cave
-|tip Manually skip to the next step.
+goto lillandrill_base 51.49,79.27
+step
+goto summerset_base 16.83,43.11
 step
 goto summerset_base 18.49,44.82
 click Saltbreeze Cave
 |tip Manually skip to the next step.
 step
-goto lillandrilcave_base 55.72,34.89
-'At the fork in the path, go right
-|tip Manually skip to the next step.
+goto lillandrilcave_base 65.51,54.55
 step
-goto lillandrilcave_base 28.35,29.89
-'Continue into the cave through here
-|tip Manually skip to the next step.
+goto lillandrilcave_base 66.86,42.16
+step
+goto lillandrilcave_base 55.28,34.82
+step
+goto lillandrilcave_base 45.89,22.43
+step
+goto lillandrilcave_base 35.66,23.82
+step
+goto lillandrilcave_base 18.05,28.94
 step
 goto lillandrilcave_base 22.91,53.93
-'Cross the bridge here
-|tip Manually skip to the next step.
 step
-goto lillandrilcave_base 45.28,80.45
-kill Gerwerdel
-|tip Manually skip to the next step.
+goto lillandrilcave_base 48.25,75.51
+'Explore Saltbreeze Cave |q Murder In Lillandril/Explore Saltbreeze Cave
+step
+goto lillandrilcave_base 48.25,75.51
+kill Gerwerdel |q Murder In Lillandril/Kill Gerwerdel
 step
 goto lillandrilcave_base 45.38,82.13
-'Press _E_ to Search _Sapiarch's Chest_
-'Take Sapiarch's Key
-|tip Manually skip to the next step.
+'Press _E_ to Search _Sapiarch's Chest_ |q Murder In Lillandril/Collect the Laboratory Key
+'Take _Sapiarch's Key_
 step
 goto lillandrilcave_base 57.18,77.31
 click Sapiarch's Lab
 |tip Manually skip to the next step.
 step
 goto lillandrilcave_base 55.02,66.06
-talk Norasea
-|tip Manually skip to the next step.
+'Explore the Laboratory |q Murder In Lillandril/Explore the Laboratory
+step
+goto lillandrilcave_base 55.02,66.06
+talk Norasea |q Murder In Lillandril/Talk to Norasea
 step
 goto lillandrilcave_base 54.00,67.30
-'Press _E_ to Take _Haladan's Journal Entry_
-|tip Manually skip to the next step.
+'Press _E_ to Take _Haladan's Journal Entry_ |q Murder In Lillandril/.*Collect Haladan's Notes.*: |count 1
 step
 goto lillandrilcave_base 63.46,67.85
-'Press _E_ to Take _To Haladan, My Dearest Friend_
-|tip Manually skip to the next step.
+'Press _E_ to Take _To Haladan, My Dearest Friend_ |q Murder In Lillandril/.*Collect Haladan's Notes.*: |count 2
 step
 goto lillandrilcave_base 63.46,67.85
-'Press _E_ to Take _Letter to Norasea_
-|tip Manually skip to the next step.
+'Press _E_ to Take _Letter to Norasea_ |q Murder In Lillandril/.*Collect Haladan's Notes.*: |count 3
 step
 'Open your map:
 click Lillandril Wayshrine
 'Travel to the _Lillandril_ Wayshrine
 |tip Manually skip to the next step.
 step
-goto lillandrill_base 40.48,69.49
-'Run up the stairs from here
-|tip Manually skip to the next step.
+goto lillandrill_base 40.54,69.35
 step
-goto lillandrill_base 50.19,53.90
-'Run up the stairs from here
-|tip Manually skip to the next step.
+goto lillandrill_base 49.95,53.73
 step
-goto lillandrill_base 45.75,39.97
+goto lillandrill_base 53.71,40.02
+step
+goto lillandrill_base 45.65,39.90
 click Fighters Guild
 |tip Manually skip to the next step.
 step
 goto lillandrill_base 44.05,45.25
+talk Emile Oncent |q Murder In Lillandril/Talk to Emile
+step
+goto lillandrill_base 44.05,45.25
+talk Vivienne Muric |q Murder In Lillandril/Talk to Vivienne
+|tip Manually skip to the next step.
+step
+goto lillandrill_base 44.05,45.25
+talk Calawende |q Murder In Lillandril/Talk to Calawende
+|tip Manually skip to the next step.
+step
+goto lillandrill_base 44.05,45.25
 talk Emile Oncent
-|tip Manually skip to the next step.
-step
-goto lillandrill_base 44.05,45.25
-talk Vivienne Muric
-|tip Manually skip to the next step.
-step
-goto lillandrill_base 44.05,45.25
-talk Calawende
-|tip Manually skip to the next step.
-step
-goto lillandrill_base 44.05,45.25
-talk Emile Oncent
-'Select _I'll respect your wishes..._
-|tip Manually skip to the next step.
+'Choose _Justice has to be served. I'm going to tell the Sapiarchs the truth. You're going free._ |q Murder In Lillandril/Prove Emile Innocent |or
+'_OR_
+'Choose _I'll respect your wishes. I won't share what I found with the Sapiarchs._ |q Murder In Lillandril/Respect Emile's Wishes |or
 step
 goto lillandrill_base 45.46,42.05
 talk Sapiarch Soraturil
-|tip Manually skip to the next step.
+turnin Murder In Lillandril
 step
-'Open your map:
+'Open your map. Right click to go to the Summerset map.
 click Alinor Wayshrine
 'Travel to the _Alinor_ Wayshrine
 |tip Manually skip to the next step.
 step
-goto alinor_base 52.98,58.50
-'Continue South through the archway from here
-|tip Manually skip to the next step.
+goto alinor_base 50.07,70.04
 step
-goto alinor_base 49.82,70.17
-'Run up the stairs from here and continue along the path until you reach the castle across the bridge.
-|tip Manually skip to the next step.
+goto alinor_base 42.21,76.54
+step
+goto alinor_base 44.76,77.41
+step
+goto alinor_base 50.35,79.04
+step
+goto alinor_base 51.15,86.01
+step
+goto alinor_base 56.67,85.58
 step
 goto alinor_base 64.53,46.37
 click Alinor Royal Palace
@@ -19360,20 +19351,17 @@ click Council Chamber
 |tip Manually skip to the next step.
 step
 goto alinorroyalpalace1_base 76.83,71.52
-talk Courtier Vindilween
-|tip Manually skip to the next step.
+talk Courtier Vindilween |q Culture Clash/Talk to Courtier Vindilween
 step
 goto alinorroyalpalace1_base 69.67,63.51
-talk Rigurt the Brash
-|tip Manually skip to the next step.
+talk Rigurt the Brash |q Culture Clash/Talk to Rigurt the Brash
 step
 goto alinorroyalpalace1_base 76.83,71.52
-talk Courtier Vindilween
-|tip Manually skip to the next step.
+talk Courtier Vindilween |q Culture Clash/Talk to Courtier Vindilween
 step
 goto alinorroyalpalace1_base 69.67,63.51
-talk Rigurt the Brash
-|tip Manually skip to the next step.
+talk Rigurt the Brash 
+turnin Culture Clash
 step
 'Open your map. Right click three times to bring up the Universe map. Select Artaeum in the upper-right corner.
 click Artaeum Wayshrine
@@ -19387,6 +19375,10 @@ step
 goto dreamingcave02_base 55.80,64.14
 'Press _E_ to Use _Portal to Ritemaster's Study_
 |tip Manually skip to the next step.
+step
+goto dreamingcave03_base 66.69,70.36
+talk Ritemaster Iachesis
+turnin The Tower Sentinels
 step
 goto dreamingcave03_base 66.69,70.36
 talk Ritemaster Iachesis
@@ -19405,64 +19397,59 @@ goto artaeum_base 65.92,27.03
 click The Dreaming Cave
 |tip Manually skip to the next step.
 step
-goto dreamingcave01_base 43.35,54.10
-'Press _E_ to _Use Dawnstar Gem_
-|tip Manually skip to the next step.
+goto dreamingcave01_base 39.50,54.50
+'Meet the Ritemaster in the Dreaming Cave |q The Dreaming Cave/Meet the Ritemaster in the Dreaming Cave
 step
-goto dreamingcave01_base 40.90,53.70
-talk Ritemaster Iachesis
-|tip Manually skip to the next step.
+goto dreamingcave01_base 39.50,54.50
+'Press _E_ to _Use Dawnstar Gem_ |q The Dreaming Cave/Use the Dawnstar Gem
+step
+goto dreamingcave01_base 39.50,54.50
+talk Ritemaster Iachesis |q The Dreaming Cave/Talk to Ritemaster Iachesis
 step
 goto dreamingcave01_base 45.29,23.58
 click Artaeum
 |tip Manually skip to the next step.
 step
-goto artaeum_base 64.09,28.10
-'Continue Southwest from here
-|tip Manually skip to the next step.
+goto artaeum_base 62.42,30.18
 step
 goto artaeum_base 54.60,31.49
-talk Earl Leythen
-|tip Manually skip to the next step.
+talk Earl Leythen |q The Dreaming Cave/Talk to Earl Leythen
 step
 goto artaeum_base 54.60,31.49
-talk Valsirenn
-|tip Manually skip to the next step.
+talk Valsirenn |q The Dreaming Cave/Talk to Valsirenn
 step
-'Open your map. Right click twice to bring up the Universe map. Select Tamriel.
+'Open your map. Right click to bring up the Universe map. Select Tamriel.
 click Shimmerene Wayshrine
 'Travel to the _Shimmerene_ Wayshrine
 |tip Manually skip to the next step.
 step
 goto shimmerene_base 30.48,69.83
-'Run up the stairs from here and continue into Shimmerene
-|tip Manually skip to the next step.
+step
+goto shimmerene_base 47.71,63.68
+'Find Razum-dar in Shimmerene |q The Dreaming Cave/Find Razum-dar in Shimmerene
 step
 goto shimmerene_base 47.27,63.58
-talk Bailiff Roland
+talk Bailiff Roland |q The Dreaming Cave/Talk to Bailiff Roland
 'Select _I'll pay for someone to clean this up if you tell me where to find Raz. [### gold]_
-|tip Manually skip to the next step.
 step
 goto shimmerene_base 58.28,49.30
-talk Razum-dar
-|tip Manually skip to the next step.
+'Follow the Scribbles to Razum-dar |q The Dreaming Cave/Follow the Scribbles to Razum-dar
 step
-'Open your map:
+goto shimmerene_base 58.28,49.30
+talk Razum-dar |q The Dreaming Cave/Talk to Razum-dar
+step
+'Open your map. Right click to bring up the Summerset map.
 click Eldbur Ruins Wayshrine
 'Travel to the _Eldbur Ruins_ Wayshrine
 |tip Manually skip to the next step.
 step
-goto summerset_base 55.36,37.05
-'Continue Northwest to the main road and cross the bridge
-|tip Manually skip to the next step.
-step
 goto summerset_base 53.89,34.64
-'Continue Northwest up to the hill from here
-|tip Manually skip to the next step.
 step
 goto summerset_base 51.56,32.41
-talk Sadara-do
-|tip Manually skip to the next step.
+'Meet Razum-dar at Eton Nir Grotto |q The Dreaming Cave/Meet Razum-dar at Eton Nir Grotto
+step
+goto summerset_base 51.56,32.41
+talk Sadara-do |q The Dreaming Cave/Talk to Sadara-do
 step
 goto summerset_base 50.97,32.72
 click Eton Nir Grotto Delve
@@ -19472,55 +19459,57 @@ goto etonnir_01_base 91.85,37.78
 talk Seeks-the-Dark
 accept Looting the Light
 step
-'Kill random mobs until you obtain the 3 _Tokens of Meridia_
-'Or loot the backpacks in the area
-goto etonnir_01_base 43.31,32.16
-|tip Manually skip to the next step.
+goto etonnir_01_base 43.24,36.97
+kill Webmistress Xoraxia
+|tip Webmistress Xoraxia is a minion summoning boss. So the best strategy is to clear a path to her, pull her back into the trail. Then focus on her and nothing else, while trying to avoid her summoned minions. Once she dies, they die.
+'Press _E_ to _Loot Webmistress Xoraxia_ |q Looting the Light/.*Obtain Tokens of Meridia.*: |count 1
 step
-goto etonnir_01_base 30.18,43.92
-'Continue Southwest through this passage
-|tip Manually skip to the next step.
+goto etonnir_01_base 43.24,36.97
+'Press _E_ to _Loot the Backpack_ |q Looting the Light/.*Obtain Tokens of Meridia.*: |count 2
 step
-goto etonnir_01_base 13.71,65.24
-'Continue Southwest through this passage
-|tip Manually skip to the next step.
+goto etonnir_01_base 39.25,41.46
+'Press _E_ to _Loot the Backpack_ |q Looting the Light/.*Obtain Tokens of Meridia.*: |count 3
 step
-goto etonnir_01_base 13.46,78.26
-kill Kayliriax the Spinner
-|tip Manually skip to the next step.
+goto etonnir_01_base 16.26,34.75
+'Search Eton Nir Grotto for the Meridia Shrine |q The Dreaming Cave/Search Eton Nir Grotto for the Meridia Shrine
 step
-goto etonnir_01_base 13.06,81.12
-'Press _E_ to Destroy _Spiderweb Cocoon_
-|tip Manually skip to the next step.
-step
-goto etonnir_01_base 12.15,69.49
-'Continue North through the passage
-|tip Manually skip to the next step.
-step
-goto etonnir_01_base 17.02,34.99
-click Meridia Shrine
-|tip Manually skip to the next step.
-step
-goto etonnir_02_base 34.17,50.57
-'Run over to Meridia's statue and look up
-talk Meridia
-|tip Manually skip to the next step.
+goto etonnir_02_base 16.96,34.86
+click Merdia Shrine |q The Dreaming Cave/Investigate the Shrine
 step
 goto etonnir_02_base 36.70,51.70
-talk Razum-dar
+'Run over to Meridia's statue and look up to talk to Meridia |q The Dreaming Cave/Talk to Meridia
+step
+goto etonnir_02_base 36.70,51.70
+talk Razum-dar |q The Dreaming Cave/Talk to Razum-dar
 |tip Manually skip to the next step.
 step
-goto etonnir_02_base 86.25,50.44
+goto etonnir_02_base 85.37,50.44
 click Eton Nir Grotto
 |tip Manually skip to the next step.
 step
-goto etonnir_01_base 26.77,37.23
-'From here head East back to Seeks-the-Dark
+goto etonnir_01_base 30.18,43.92
+step
+goto etonnir_01_base 13.71,65.24
+step
+goto etonnir_01_base 13.46,78.26
+kill Kayliriax the Spinner
+|tip A straightforward boss fight. Kayliriax's most potent attack is occasionally webbing you and sucking away your health, so you'll want to heal right after that. She also telegraphs lightening blobs that do a lot of damage but are easy to avoid.
 |tip Manually skip to the next step.
+step
+goto etonnir_01_base 13.06,81.12
+'Press _E_ to Destroy _Spiderweb Cocoon_ |q Looting the Light/Find Erilthel
+step
+goto etonnir_01_base 21.35,80.90
+step
+goto etonnir_01_base 41.72,76.28
+step
+goto etonnir_01_base 61.66,75.47
+step
+goto etonnir_01_base 75.05,39.18
 step
 goto etonnir_01_base 90.97,38.17
 talk Seeks-the-Dark
-|tip Manually skip to the next step.
+turnin Looting the Light
 step
 'Open your map. Right click three times to bring up the Universe map. Select Artaeum in the upper-right corner.
 click Artaeum Wayshrine
@@ -19528,20 +19517,15 @@ click Artaeum Wayshrine
 |tip Manually skip to the next step.
 step
 goto artaeum_base 64.44,26.54
-'Drop down here and continue following the staircase down
-|tip Manually skip to the next step.
-step
-goto artaeum_base 66.03,27.02
+'Follow the staircase down
 click The Dreaming Cave
 |tip Manually skip to the next step.
 step
-goto dreamingcave01_base 66.04,55.01
-talk Ritemaster Iachesis
-|tip Manually skip to the next step.
+goto dreamingcave01_base 65.68,54.77
+talk Ritemaster Iachesis |q The Dreaming Cave/Tell the Ritemaster What You Learned
 step
 goto dreamingcave01_base 52.38,51.11
-'Press _E_ to Enter _The Dreaming Cave Portal_
-|tip Manually skip to the next step.
+'Press _E_ to Enter _The Dreaming Cave Portal_ |q The Dreaming Cave/Use the Dreaming Cave Portal
 step
 goto sq5mephalaint01_base 78.31,16.19
 'Press _E_ to Burn _Webbing_
@@ -19552,18 +19536,14 @@ goto sq5mephalaint01_base 78.31,16.19
 |tip Manually skip to the next step.
 step
 goto sq5mephalaext01_base 70.99,61.58
-'Continue up the path here and head South
-|tip Manually skip to the next step.
 step
 goto sq5mephalaext01_base 72.38,68.33
-'Enter this cave
-|tip Manually skip to the next step.
 step
 goto sq5mephalaint01b_base 23.88,52.27
 'Press _E_ to Burn _Webbing_
 |tip Manually skip to the next step.
 step
-goto sq5mephalaint01b_base 41.77,81.72
+goto sq5mephalaint01b_base 42.12,81.69
 'Press _E_ to _Use Dawnstar Gem_
 |tip Manually skip to the next step.
 step
@@ -19571,27 +19551,17 @@ goto sq5mephalaint01b_base 59.83,82.36
 'Press _E_ to Enter _Revealed Path_
 |tip Manually skip to the next step.
 step
-goto sq5mephalaint02_base 81.27,28.90
-'Run up the path along the web wall
-|tip Manually skip to the next step.
+goto sq5mephalaint02_base 79.94,28.84
 step
 goto sq5mephalaint02_base 49.54,25.39
-'Continue Northeast from here
-|tip Manually skip to the next step.
 step
 goto sq5mephalaint02_base 58.11,16.02
-'Exit the cave form here
+'Exit the cave
 |tip Manually skip to the next step.
 step
 goto sq5mephalaext01_base 70.56,78.62
-'Enter the cave from here
-|tip Manually skip to the next step.
 step
-goto sq5mephalaint02b_base 48.93,55.74
-'Continue following the path South
-|tip Manually skip to the next step.
-step
-goto sq5mephalaint02b_base 49.19,75.56
+goto sq5mephalaint02b_base 49.07,75.57
 'Press _E_ to _Use Dawnstar Gem_
 |tip Manually skip to the next step.
 step
@@ -19599,25 +19569,17 @@ goto sq5mephalaint02b_base 39.07,81.26
 'Press _E_ to Enter _Revealed Path_
 |tip Manually skip to the next step.
 step
-goto sq5mephalaint03_base 82.65,55.28
-'Follow the path up from here
-|tip Manually skip to the next step.
+goto sq5mephalaint03_base 82.27,52.39
 step
 goto sq5mephalaint03_base 68.24,56.55
-'Follow the path South from here
-|tip Manually skip to the next step.
 step
 goto sq5mephalaint03_base 62.32,73.80
-'Press _E_ to Open _Web Cocoon_
-|tip Manually skip to the next step.
+'Press _E_ to Open _Web Cocoon_ |q The Dreaming Cave/Find Valsirenn
 step
 goto sq5mephalaint03_base 62.32,73.80
-talk Valsirenn
-|tip Manually skip to the next step.
+talk Valsirenn |q The Dreaming Cave/Talk to Valsirenn
 step
-goto sq5mephalaint03_base 63.72,72.77
-'Follow the path North from here, and then head West
-|tip Manually skip to the next step.
+goto sq5mephalaint03_base 60.17,58.05
 step
 goto sq5mephalaint03_base 49.37,55.71
 'Press _E_ to _Use Dawnstar Gem_
@@ -19628,64 +19590,61 @@ goto sq5mephalaint03_base 38.89,56.46
 |tip Manually skip to the next step.
 step
 goto sq5mephalaint03_base 09.17,41.16
-'Continue North from here
-|tip Manually skip to the next step.
 step
 goto sq5mephalaext01_base 19.35,89.50
-'Follow the path East
-|tip Manually skip to the next step.
+step
+goto sq5mephalaext01_base 25.29,85.29
+step
+goto sq5mephalaext01_base 35.80,85.59
 step
 goto sq5mephalaext01_base 40.57,75.59
-'Cross the bridge from here
-|tip Manually skip to the next step.
 step
 goto sq5mephalaext01_base 46.27,61.74
 kill Gwarchodwyr
+|tip Simple boss fight with Valsirenn's help. Gwarchodwyr doesn't hit hard so you can take a couple of melee telegraphs.
 |tip Manually skip to the next step.
 step
 goto sq5mephalaext01_base 46.63,55.60
 'Press _E_ to Burn _Webbing_
 |tip Manually skip to the next step.
 step
-goto sq5mephalaext01_base 46.63,55.60
-'Cross the bridge from here
-|tip Manually skip to the next step.
-step
 goto sq5mephalaext01_base 27.91,29.63
-'Continue further inside the compound from here
-|tip Manually skip to the next step.
+step
+goto sq5mephalaext01_base 25.36,25.88
+'Find Darien Gautier |q The Dreaming Cave/Find Darien Gautier
 step
 goto sq5mephalaext01_base 18.62,17.19
 kill Zikal-zun
+|tip Simple boss fight with Valsirenn's help. Zikal-zun is protected by minions plus a summoned minion when she reaches a certain health percentage. Focus on dispatching the guards, then take her down. Ignore the minion.
 |tip Manually skip to the next step.
 step
 goto sq5mephalaext01_base 19.36,17.47
-'Press _E_ to _Use Dawnstar Gem_
-|tip Manually skip to the next step.
+'Press _E_ to _Use Dawnstar Gem_ |q The Dreaming Cave/Rescue Darien Gautier
 step
-goto sq5mephalaext01_base 18.72,16.70
-talk Darien Gautier
-|tip Manually skip to the next step.
+goto sq5mephalaext01_base 18.77,16.73
+talk Darien Gautier |q The Dreaming Cave/Talk to Darien Gautier
 step
 goto sq5mephalaext01_base 24.01,17.20
 click The Spiral Skein
 |tip Manually skip to the next step.
 step
 goto sq5mephalaext01_base 35.87,19.08
-talk Valsirenn
-|tip Manually skip to the next step.
+talk Valsirenn |q The Dreaming Cave/Talk to Valsirenn
 step
 goto sq5mephalaext01_base 35.87,19.08
-'Kill the multiple waves on incoming mobs, and finally
-kill Brevorra Poisonclaw
-|tip Manually skip to the next step.
+kill Brevorra Poisonclaw |q The Dreaming Cave/Wait for the Portal to Open
+|tip Kill the multiple waves on incoming mobs, and finally Brevorra Poisonclaw. Brevorra is a simple boss fight. Her only powerful attack is a ranged poison cloud telegraph that follows you around for a little while. She also summons a minion. Ignore those and focus on Brevorra.
 step
 goto sq5mephalaext01_base 36.52,20.13
 'Press _E_ to Use _Portal to the Dreaming Cave_
 |tip Manually skip to the next step.
 step
 goto dreamingcave01_base 57.52,54.10
-talk Ritemaster Iachesis
+talk Ritemaster Iachesis 
+turnin The Dreaming Cave
+step
+goto dreamingcave01_base 57.52,54.10
+talk Ritemaster Iachesis 
 accept Lost in Translation
 step
 goto dreamingcave01_base 47.25,23.02
@@ -19697,24 +19656,18 @@ goto artaeum_base 65.06,26.59
 click Portal to Ceporah Tower
 |tip Manually skip to the next step.
 step
-goto dreamingcave02_base 55.60,66.33
+goto dreamingcave02_base 56.23,65.08
 'Press _E_ to Use _Portal to Ritemaster's Study_
 |tip Manually skip to the next step.
 step
 goto dreamingcave03_base 65.52,69.35
-talk Oriandra
-|tip Manually skip to the next step.
+talk Oriandra |q Lost in Translation/Talk to Oriandra in the Ritemaster's Study
 step
 goto dreamingcave03_base 67.02,66.29
-'Press _E_ to Take  _Grand Maestro Forte's Research_
-|tip Manually skip to the next step.
+'Press _E_ to Take  _Grand Maestro Forte's Research_ |q Lost in Translation/Take the Notes on the Ancient Language
 step
 goto dreamingcave03_base 58.34,70.87
 'Press _E_ to Use _Portal to Ceporah Main Gallery_
-|tip Manually skip to the next step.
-step
-goto dreamingcave02_base 51.37,55.24
-'From here run to the room in the Northeast corner
 |tip Manually skip to the next step.
 step
 goto dreamingcave02_base 56.44,20.30
@@ -19722,72 +19675,54 @@ goto dreamingcave02_base 56.44,20.30
 |tip Manually skip to the next step.
 step
 goto dreamingcave03_base 62.45,35.82
-talk Earl Leythen
-|tip Manually skip to the next step.
+talk Earl Leythen |q Lost in Translation/Talk to Earl Leythen
 step
 'Open your map. Right click twice to bring up the Universe map. Select Tamriel.
 click Ebon Stadmont Wayshrine
 'Travel to the _Ebon Stadmont_ Wayshrine
 |tip Manually skip to the next step.
 step
-goto summerset_base 35.08,37.70
-'From here continue on the main road South until you reached the bridge
-|tip Manually skip to the next step.
+goto summerset_base 35.09,38.22
 step
 goto summerset_base 36.69,39.78
-'Follow the river Northeast from here
-|tip Manually skip to the next step.
 step
 goto summerset_base 37.69,38.39
-'Press _E_ to _Use Leythen's Rune_
-|tip Manually skip to the next step.
+'Press _E_ to _Use Leythen's Rune_ |q Lost in Translation/Use Leythen's Rune in Ebon Stadmont
 step
 goto summerset_base 37.76,38.24
-talk Earl Leythen
-|tip Manually skip to the next step.
-step
-goto summerset_base 37.76,38.24
-'From here follow the river Southwest until you reached the bridge
-|tip Manually skip to the next step.
+talk Earl Leythen |q Lost in Translation/Talk to Earl Leythen
 step
 goto summerset_base 36.61,39.74
-'Continue on the main road Northwest back to Ebon Stadmont
-|tip Manually skip to the next step.
 step
-goto summerset_base 35.88,37.35
-talk Andewen
-accept The Ebon Sanctum
-|tip Manually skip to the next step.
+goto summerset_base 35.36,38.61
+step
+goto summerset_base 35.14,37.70
+step
+goto summerset_base 35.87,37.42
+talk Andewen |q The Ebon Sanctum/Talk to Andewen
 step
 goto summerset_base 36.03,37.51
 click Ebon Stadmont
 |tip Manually skip to the next step.
 step
 goto summerset_base 36.43,38.11
-'Press _E_ to Search _Inscribed Stonework_
-'Kill the three waves of mobs that appear
-|tip Manually skip to the next step.
+'Press _E_ to Search _Inscribed Stonework_ |q The Ebon Sanctum/Assist Andewen
+'Kill the three waves of mobs that appear then kill Nogral
+|tip Nogral is an easy boss that does slow melee and ranged telegraphing attacks, so it's easy to interrupt them.
 step
 goto summerset_base 37.13,38.82
-click Ebon Stadmont
-|tip Manually skip to the next step.
+click Ebon Stadmont |q The Ebon Sanctum/Find the Path to the Ruin
 step
 goto summerset_base 38.58,36.68
-'Press _E_ to Search _Inscribed Stonework_
-'Kill the three waves of mobs that appear
-|tip Manually skip to the next step.
+'Press _E_ to Search _Inscribed Stonework_ |q The Ebon Sanctum/Assist Andewen
+'Kill the three waves of mobs that appear then kill Nikalia the Beguiling
+|tip Nikalia is an easy boss that does melee and ranged telegraphing attacks. Not as slow as Nogral, but easy all the same.
 step
 goto summerset_base 38.82,37.36
 click Ebon Stadmont
 |tip Manually skip to the next step.
 step
-goto summerset_base 36.20,36.67
-'Follow the path up to the fork
-|tip Manually skip to the next step.
-step
-goto summerset_base 36.53,36.33
-'At the fork in the path, go right from here
-|tip Manually skip to the next step.
+goto summerset_base 36.48,36.42
 step
 goto summerset_base 37.40,36.32
 click Ebon Stadmont
@@ -19797,33 +19732,22 @@ goto ebonStadmont_base 61.09,59.69
 'Press _E_ to _Use Leythen's Rune_
 |tip Manually skip to the next step.
 step
-goto ebonStadmont_base 61.09,59.69
-'Continue following the path Southeast
-|tip Manually skip to the next step.
-step
 goto ebonStadmont_base 67.54,75.67
-'Continue following the path East
-|tip Manually skip to the next step.
 step
 goto ebonStadmont_base 78.57,71.63
-'Continue following the path North
-|tip Manually skip to the next step.
 step
-goto ebonStadmont_base 70.70,52.53
-'Press _E_ to _Use Leythen's Rune_
-|tip Manually skip to the next step.
+goto ebonStadmont_base 69.41,52.55
+'Press _E_ to _Use Leythen's Rune_ |q Lost in Translation/Locate the Inscribed Stone
 step
 goto ebonStadmont_base 68.86,52.69
-talk Earl Tundilwen
-|tip Manually skip to the next step.
+talk Earl Tundilwen |q Lost in Translation/Talk to Nocturnal's Earl
 step
 goto ebonStadmont_base 72.16,53.73
-talk Earl Leythen
-|tip Manually skip to the next step.
+talk Earl Leythen |q Lost in Translation/Talk to Earl Leythen
 step
 goto ebonStadmont_base 74.52,54.46
-'Run up the double set of stairs from here
-|tip Manually skip to the next step.
+step
+goto ebonStadmont_base 75.26,51.38
 step
 goto ebonStadmont_base 68.28,46.35
 click Summerset
@@ -19846,75 +19770,82 @@ goto summerset_base 37.86,37.55
 click Ebon Stadmont
 |tip Manually skip to the next step.
 step
+goto summerset_base 39.07,35.34
+step
+goto summerset_base 38.47,35.37
+step
 goto summerset_base 38.74,34.68
-'Follow the path to the Ruins
 click Ebon Sanctum
 |tip Manually skip to the next step.
 step
 goto ebonStadmont03_base 70.78,39.05
-'Press _E_ to Examine _Dear Escort_
-|tip Manually skip to the next step.
+'Search the Ruin |q The Ebon Sanctum/Search the Ruin
 step
-goto ebonStadmont03_base 70.93,34.64
-'Press _E_ to Activate _Enchanted Stone_
-|tip Manually skip to the next step.
+goto ebonStadmont03_base 71.40,37.96
+'Press _E_ to Examine _Dear Escort_ |q The Ebon Sanctum/Examine the Note
 step
-goto ebonStadmont03_base 70.97,21.02
-click Ebon Sanctum
-|tip Manually skip to the next step.
+goto ebonStadmont03_base 71.88,35.05
+'Press _E_ to Activate _Enchanted Stone_ |q The Ebon Sanctum/Examine the Stone
+step
+goto ebonStadmont03_base 71.73,21.89
+click Ebon Sanctum |q The Ebon Sanctum/Find Andewen
 step
 goto ebonStadmont02_base 72.22,72.55
-kill Nightstealer Sorina
-'This is a challenging fight. Make sure you interrupt and block her attacks. Also bring healing potions and spells.
-|tip Manually skip to the next step.
+kill Nightstealer Sorina |q The Ebon Sanctum/Kill the Daedra
+|tip Sorina is a challenging fight. Make sure you interrupt and block her attacks. Also bring healing potions and spells. If you have any HP buffs, use them.
 step
-goto ebonStadmont02_base 72.68,32.35
-'Press _E_ to Bandage _Fletch_, then
-talk Fletch
-|tip Manually skip to the next step.
+goto ebonStadmont02_base 70.71,32.17
+'Press _E_ to Bandage _Fletch_ |q The Ebon Sanctum/Help Andewen Heal Fletch
 step
-goto ebonStadmont02_base 83.75,33.01
+goto ebonStadmont02_base 71.00,31.73
+talk Fletch |q The Ebon Sanctum/Talk to Fletch
+step
+goto ebonStadmont02_base 83.53,33.55
 click Ebon Sanctum Garden
 |tip Manually skip to the next step.
 step
 goto ebonStadmont_base 34.06,47.87
-talk Maestro Forte
-|tip Manually skip to the next step.
+talk Maestro Forte |q The Ebon Sanctum/Talk to Maestro Forte
 step
 goto ebonStadmont_base 51.08,42.44
 click Northern Pass
 |tip Manually skip to the next step.
 step
-goto ebonStadmont_base 41.06,32.92
-'Follow the path to the stone
-'Press _E_ to Activate _Enchanted Stone_
-|tip Manually skip to the next step.
+goto ebonStadmont_base 57.17,37.54
 step
 goto ebonStadmont_base 41.06,32.92
-talk Andewen
-|tip Manually skip to the next step.
+'Press _E_ to Activate _Enchanted Stone_ |q The Ebon Sanctum/Investigate the Northern Stone
+step
+goto ebonStadmont_base 41.06,32.92
+talk Andewen |q The Ebon Sanctum/Talk to Andewen
 step
 goto ebonStadmont_base 36.89,33.60
-click Ebon Sanctum
-|tip Manually skip to the next step.
+click Ebon Sanctum |q The Ebon Sanctum/Travel Back to the Present
 step
-goto ebonStadmont_base 29.56,33.79
-talk Andewen
-'Watch cutscene
-talk Andewen, again
-|tip Manually skip to the next step.
+goto ebonStadmont_base 29.83,33.53
+talk Andewen |q The Ebon Sanctum/Talk to Andewen
+step
+goto ebonStadmont_base 29.83,33.53
+'Listen to Fletch |q The Ebon Sanctum/Listen to Fletch
+step
+goto ebonStadmont_base 29.60,33.68
+talk Andewen |q The Ebon Sanctum/Talk to Andewen
 step
 goto ebonStadmont_base 28.17,38.47
 click Ebon Sanctum Halls
 |tip Manually skip to the next step.
 step
 goto ebonStadmont02_base 52.24,33.44
-click Ebon Sanctum
+kill Hunger
+|tip Best to avoid these, but in case you're forced to only deal with one. They are vampire bosses who suck away your health. The best strategy is to lure it back to the door and fight it there so you can do the maximum amount of damage when it teleports around near the door.
 |tip Manually skip to the next step.
 step
+goto ebonStadmont02_base 52.42,33.77
+click Ebon Sanctum |q The Ebon Sanctum/Follow Fletch
+step
 goto ebonStadmont02_base 71.40,37.49
-kill Fletch
-|tip Manually skip to the next step.
+kill Fletch |q The Ebon Sanctum/Defeat Fletch
+|tip Fletch is the straight-forward fight. His only attacks are ranged telegraphs that are easy to avoid.
 step
 goto ebonStadmont02_base 84.48,33.41
 click Ebon Sanctum Garden
@@ -19924,34 +19855,24 @@ goto ebonStadmont_base 39.85,52.53
 click Southern Path
 |tip Manually skip to the next step.
 step
+goto ebonStadmont_base 36.44,63.27
+step
 goto ebonStadmont_base 26.52,59.70
-'Follow the path to the stone
-'Press _E_ to Activate _Enchanted Stone_
-|tip Manually skip to the next step.
+'Press _E_ to Activate _Enchanted Stone_ |q The Ebon Sanctum/Activate the Southern Stone
 step
 goto ebonStadmont_base 26.07,56.53
-click Ebon Sanctum
-|tip Manually skip to the next step.
+click Ebon Sanctum |q The Ebon Sanctum/Enter Portal
 step
-goto ebonStadmont03_base 70.71,30.05
-talk Fletch
-|tip Manually skip to the next step.
+goto ebonStadmont03_base 71.62,29.73
+talk Fletch |q The Ebon Sanctum/Talk to Fletch
 step
-goto ebonStadmont03_base 71.44,84.52
+goto ebonStadmont03_base 71.40,83.97
 click Ebon Stadmont
 |tip Manually skip to the next step.
 step
 goto summerset_base 38.65,34.97
 talk Andewen
-|tip Manually skip to the next step.
-step
-goto summerset_base 38.78,35.15
-'Jump down from here
-|tip Manually skip to the next step.
-step
-goto summerset_base 39.26,35.76
-click Ebon Stadmont
-|tip Manually skip to the next step.
+turnin The Ebon Sanctum
 step
 'Open your map. Right click twice to view the Tamriel world map, then left click Artaeum in the upper-right corner.
 click Artaeum Wayshrine
@@ -19962,18 +19883,13 @@ goto artaeum_base 64.99,25.56
 click Portal to Ceporah Tower
 |tip Manually skip to the next step.
 step
-goto dreamingcave02_base 24.69,41.34
-'Pass through the archway from here and follow the hallway
-|tip Manually skip to the next step.
+goto dreamingcave02_base 17.25,43.55
 step
 goto dreamingcave02_base 28.27,66.48
-'Pass through the archway from here
-|tip Manually skip to the next step.
 step
 goto dreamingcave02_base 22.98,74.43
-talk Ritemaster Iachesis
-'Select _We need to be cautious. I wouldn't take anything the Court of Bedlam tells us at face value._
-|tip Manually skip to the next step.
+talk Ritemaster Iachesis |q Lost in Translation/Talk to Ritemaster Iachesis in Ceporah Tower
+'Select either choice.
 step
 goto dreamingcave02_base 16.17,73.45
 talk Cinucil
@@ -19985,286 +19901,240 @@ click Artaeum Wayshrine
 |tip Manually skip to the next step.
 step
 goto artaeum_base 60.27,33.91
-'Continue Southwest on the main road from here
-|tip Manually skip to the next step.
 step
 goto artaeum_base 55.74,38.85
 talk Andiryewen
 accept The Vault of Moawita
 step
-goto artaeum_base 55.74,38.85
-'Continue Southwest on the main road from here
-|tip Manually skip to the next step.
-step
 goto artaeum_base 46.11,41.01
-'At the fork in the road, go right from here
-|tip Manually skip to the next step.
 step
 goto artaeum_base 42.87,40.59
-'At the fork in the road, go left from here
-|tip Manually skip to the next step.
 step
 goto artaeum_base 39.94,44.51
-talk Ulliceta gra-Kogg
-|tip Manually skip to the next step.
+talk Ulliceta gra-Kogg |q Half-Formed Understandings/Talk to Ulliceta
 step
 goto artaeum_base 39.88,44.68
 click Traitor's Vault Delve
 |tip Manually skip to the next step.
 step
-goto TraitorsVault04_base 57.45,15.61
-'Run down both stairs from here and through the archway
-|tip Manually skip to the next step.
+goto TraitorsVault04_base 56.28,20.22
 step
 goto TraitorsVault02_base 56.58,33.58
-'Press _E_ to Use _Library Eye Pedestal_
-|tip Manually skip to the next step.
+'Find the First Library Pedestal |q Half-Formed Understandings/Find the First Library Pedestal
 step
-goto TraitorsVault02_base 56.36,35.99
-'Continue South through the Archway from here and continue East through the next archway
-|tip Manually skip to the next step.
+goto TraitorsVault02_base 56.58,33.58
+'Press _E_ to Use _Library Eye Pedestal_ |q Half-Formed Understandings/Use the Eye on the Bridge
+step
+goto TraitorsVault02_base 56.43,40.20
 step
 goto TraitorsVault02_base 72.41,34.71
-'Continue through this archway from here
-|tip Manually skip to the next step.
+step
+goto TraitorsVault02_base 71.99,27.08
 step
 goto TraitorsVault02_base 79.16,27.31
 'Run down the stairs from here
 |tip Manually skip to the next step.
 step
 goto TraitorsVault01_base 83.32,39.34
-'Continue through the archway from here
-|tip Manually skip to the next step.
 step
 goto TraitorsVault01_base 66.79,38.12
-'Press _E_ to Use _Library Eye Pedestal_
-|tip Manually skip to the next step.
+'Find the Next Library Pedestal |q Half-Formed Understandings/Find the Next Library Pedestal
+step
+goto TraitorsVault01_base 66.79,38.12
+'Press _E_ to Use _Library Eye Pedestal_ |q Half-Formed Understandings/Use the Eye in the Presentation Chamber
 step
 goto TraitorsVault01_base 72.20,43.40
-'Continue through the archway from here
-|tip Manually skip to the next step.
 step
 goto TraitorsVault01_base 64.29,51.24
-'Continue through the archway from here
-|tip Manually skip to the next step.
 step
 goto TraitorsVault01_base 56.50,55.80
-'Continue through the archway from here
-|tip Manually skip to the next step.
+step
+goto TraitorsVault01_base 56.37,63.11
+step
+goto TraitorsVault01_base 44.58,62.68
 step
 goto TraitorsVault01_base 44.60,58.20
 'Run up both set of stairs from here
 |tip Manually skip to the next step.
 step
 goto TraitorsVault02_base 36.77,46.24
-'Continue North through the archway from here
-|tip Manually skip to the next step.
 step
 goto TraitorsVault02_base 36.85,34.48
-'Continue North through the archway from here
-|tip Manually skip to the next step.
 step
 goto TraitorsVault02_base 36.70,26.73
-'Press _E_ to Use _Library Eye Pedestal_
-|tip Manually skip to the next step.
+'Find the Next Library Pedestal |q Half-Formed Understandings/Find the Next Library Pedestal
+step
+goto TraitorsVault02_base 36.70,26.73
+'Press _E_ to Use _Library Eye Pedestal_ |q Half-Formed Understandings/Use the Eye in the Laboratory
 step
 goto TraitorsVault02_base 36.62,32.12
-'Continue South through the archway from here
-|tip Manually skip to the next step.
 step
 goto TraitorsVault02_base 36.85,43.27
-'Continue South through the archway from here
-|tip Manually skip to the next step.
 step
 goto TraitorsVault02_base 38.38,50.79
 'Run down both set of stairs from here
 |tip Manually skip to the next step.
 step
 goto TraitorsVault01_base 47.08,63.01
-'Press _E_ to Use _Library Eye Pedestal_
-|tip Manually skip to the next step.
+'Find the Fourth Library Pedestal |q Half-Formed Understandings/Find the Fourth Library Pedestal
+step
+goto TraitorsVault01_base 46.86,62.56
+'Press _E_ to Use _Library Eye Pedestal_ |q Half-Formed Understandings/Use the Eye Outside the Sealed Hall
+step
+goto TraitorsVault01_base 46.86,62.56
+'Observe the Scene |q Half-Formed Understandings/Observe the Scene
 step
 goto TraitorsVault01_base 44.80,63.94
 click Sealed Hall
 |tip Manually skip to the next step.
 step
 goto TraitorsVault01_base 31.86,74.91
-click Secret Chamber
-|tip Manually skip to the next step.
+click Secret Chamber |q Half-Formed Understandings/Enter Mannimarco's Secret Chamber
 step
 goto TraitorsVault01_base 18.61,74.93
-kill Vessel of Worms
-|tip Manually skip to the next step.
+'Search the Chamber |q Half-Formed Understandings/Search the Chamber
 step
-'Open your map:
+goto TraitorsVault01_base 18.61,74.93
+kill Vessel of Worms |q Half-Formed Understandings/Kill Vessel of Worms
+|tip The Vessel of Worms is a pretty simply boss fight. Ignore the minions it casts, and focus all your DPS on the Vassel.
+step
+'Open your map. Right click to go to the Artaeum map.
 click Artaeum Wayshrine
 'Travel to the _Artaeum_ Wayshrine
 |tip Manually skip to the next step.
 step
-goto artaeum_base 60.27,33.91
-'Continue Southwest on the main road from here
-|tip Manually skip to the next step.
+goto artaeum_base 59.77,34.76
 step
 goto artaeum_base 46.11,41.01
-'At the fork in the road, go right from here
-|tip Manually skip to the next step.
 step
 goto artaeum_base 42.87,40.59
-'At the fork in the road, go left from here
-|tip Manually skip to the next step.
 step
 goto artaeum_base 39.58,43.83
 talk Ulliceta gra-Kogg
-|tip Manually skip to the next step.
+turnin Half-Formed Understandings
 step
 goto artaeum_base 54.98,41.74
-'Travel Southwest on the main road from here
-|tip Manually skip to the next step.
 step
 goto artaeum_base 53.81,45.29
-'At the fork in the road, go left from here
-|tip Manually skip to the next step.
 step
 goto artaeum_base 56.20,46.30
-'At the fork in the road, go right from here and run up the stairs
-|tip Manually skip to the next step.
 step
 goto artaeum_base 56.52,49.45
 click College of Psijics Ruins
 |tip Manually skip to the next step.
 step
-goto collegeofpsijicsruins_base 55.46,28.90
-'Run down the stairs
-|tip Manually skip to the next step.
+goto collegeofpsijicsruins_base 52.26,26.68
 step
 goto collegeofpsijicsruins_base 64.70,43.05
 click Vault of Moawita
 |tip Manually skip to the next step.
 step
-goto collegeofpsijicsruins_btm_base 59.97,43.95
-talk Relicmaster Glenadir
-|tip Manually skip to the next step.
+goto collegeofpsijicsruins_base 59.97,43.95
+talk Relicmaster Glenadir |q The Vault of Moawita/Talk to Relicmaster Glenadir
 step
 goto collegeofpsijicsruins_btm_base 51.18,47.39
-'Press _E_ to Examine _Psijic Codex: List of Dead Drops_
-|tip Manually skip to the next step.
+'Press _E_ to Examine _Psijic Codex: List of Dead Drops_ |q The Vault of Moawita/Read the Psijic Codex
 step
 goto collegeofpsijicsruins_btm_base 51.18,47.39
-'Press _E_ to _Use Paper and Quill_
-|tip Manually skip to the next step.
+'Press _E_ to _Use Paper and Quill_ |q The Vault of Moawita/Copy the Psijic Codex
 step
-goto collegeofpsijicsruins_btm_base 57.15,44.00
+goto collegeofpsijicsruins_btm_base 57.84,43.46
 talk Relicmaster Glenadir
-|tip Manually skip to the next step.
+turnin The Vault of Moawita
 step
-'Open your map:
+'Open your map. Right click to go to the Artaeum map.
 click Artaeum Wayshrine
 'Travel to the _Artaeum_ Wayshrine
 |tip Manually skip to the next step.
 step
 goto artaeum_base 68.31,34.24
-talk Darien Gautier
-|tip Manually skip to the next step.
+talk Darien Gautier |q Lost in Translation/Talk to Darien Gautier
 step
 goto artaeum_base 64.52,26.54
-'Drop down from here and run down the stairs
-|tip Manually skip to the next step.
 step
 goto artaeum_base 65.92,27.03
 click The Dreaming Cave
 |tip Manually skip to the next step.
 step
 goto dreamingcave01_base 39.06,54.50
-talk Ritemaster Iachesis
-|tip Manually skip to the next step.
+talk Ritemaster Iachesis |q Lost in Translation/Meet in the Dreaming Cave
 step
 goto dreamingcave01_base 44.55,52.82
-'Press _E_ to Enter _The Dreaming Cave Portal_
-|tip Manually skip to the next step.
+'Press _E_ to Enter _The Dreaming Cave Portal_ |q Lost in Translation/Use the Dreaming Cave Portal
 step
 goto sq6evergloam_base 54.31,80.50
-talk Ritemaster Iachesis
-|tip Manually skip to the next step.
+talk Ritemaster Iachesis |q Lost in Translation/Talk to Ritemaster Iachesis
 step
 goto sq6evergloam_base 41.68,76.32
-kill Wraith of Crows
-|tip Manually skip to the next step.
 step
-goto sq6evergloam_base 41.71,61.37
-'Follow the path Southeast from here
-|tip Manually skip to the next step.
+goto sq6evergloam_base 43.90,62.53
 step
 goto sq6evergloam_base 60.32,68.87
-talk Ritemaster Iachesis
-|tip Manually skip to the next step.
+'Follow the Path |q Lost in Translation/Follow the Path
+step
+goto sq6evergloam_base 60.32,68.87
+talk Ritemaster Iachesis |q Lost in Translation/Talk to Ritemaster Iachesis
 step
 goto sq6evergloam_base 65.29,63.36
-'Run up both set of stairs from here
-|tip Manually skip to the next step.
 step
 goto sq6evergloam_base 73.92,62.58
-'Run up the stairs from here
-|tip Manually skip to the next step.
 step
 goto sq6evergloam_base 79.98,64.63
-'Run up the stairs from here
-|tip Manually skip to the next step.
 step
 goto sq6evergloam_base 84.69,62.47
-'Follow the path Northwest from here
-|tip Manually skip to the next step.
+step
+goto sq6evergloam_base 67.34,49.45
 step
 goto sq6evergloam_base 49.33,44.01
-kill Wraith of Crows
-|tip Manually skip to the next step.
 step
 goto sq6evergloam_base 39.21,46.60
-talk Ritemaster Iachesis
-|tip Manually skip to the next step.
+'Follow the Path |q Lost in Translation/Follow the Path
+step
+goto sq6evergloam_base 39.21,46.60
+talk Ritemaster Iachesis |q Lost in Translation/Talk to Ritemaster Iachesis
 step
 goto sq6evergloam_base 35.31,47.32
-'Run up the stairs from here
-|tip Manually skip to the next step.
 step
 goto sq6evergloam_base 27.84,46.43
-'Run up both set of stairs from here
-|tip Manually skip to the next step.
 step
 goto sq6evergloam_base 15.96,36.81
-'Run up both set of stairs from here
-|tip Manually skip to the next step.
 step
 goto sq6evergloam_base 18.91,29.44
-'Run up both set of stairs from here
-|tip Manually skip to the next step.
 step
 goto sq6evergloam_base 26.82,34.44
-talk Ritemaster Iachesis
-|tip Manually skip to the next step.
+'Follow the Path |q Lost in Translation/Follow the Path
+step
+goto sq6evergloam_base 26.82,34.44
+talk Ritemaster Iachesis |q Lost in Translation/Talk to Ritemaster Iachesis
 step
 goto sq6evergloam_base 26.91,35.34
-'Press _E_ to Use _Portal to Mountain Top_
-|tip Manually skip to the next step.
+'Press _E_ to Use _Portal to Mountain Top_ |q Lost in Translation/Use the Portal
 step
 goto sq6evergloam_base 44.36,38.51
-'Run up both set of stairs from here
-|tip Manually skip to the next step.
 step
 goto sq6evergloam_base 47.07,26.61
-'Run up the stairs from here
-|tip Manually skip to the next step.
 step
 goto sq6evergloam_base 52.94,30.61
-talk Ritemaster Iachesis
-|tip Manually skip to the next step.
+'Approach the Mountain Top Ruin |q Lost in Translation/Approach the Mountain Top Ruin
 step
 goto sq6evergloam_base 52.94,30.61
-'During this fight defeat the waves of mobs.
-'Uses Dawnbreaker's abilities.
-'The final fight are twin bosses.
+talk Ritemaster Iachesis |q Lost in Translation/Talk to Ritemaster Iachesis
+step
+goto sq6evergloam_base 52.94,30.61
+'Defend Against the Daedric Attack |q Lost in Translation/Defend Against the Daedric Attack
+'During this fight defeat the waves of mobs periodically using Dawnbreaker's abilities. The final battle consists of twin bosses.
 kill Aaderyna
 kill Ddynedan
-|tip Manually skip to the next step.
+step
+goto sq6evergloam_base 52.94,30.61
+'Escape Nocturnal's Realm |q Lost in Translation/Escape Nocturnal's Realm
+step
+goto dreamingcave01_base 37.86,35.46
+talk Oriandra |q Lost in Translation/Talk to Oriandra
+step
+goto dreamingcave01_base 37.86,35.46
+talk Oriandra
+turnin Lost in Translation
 step
 goto dreamingcave01_base 37.86,35.46
 talk Oriandra
@@ -20283,32 +20153,24 @@ goto dreamingcave02_base 15.77,42.63
 |tip Manually skip to the next step.
 step
 goto dreamingcave03_base 19.86,49.48
-talk Sotha Sil
-|tip Manually skip to the next step.
+talk Sotha Sil |q A Necessary Alliance/Talk to Sotha Sil
 step
 goto dreamingcave03_base 34.84,49.78
 'Press _E_ to Use _Portal to Ceporah Main Gallery_
 |tip Manually skip to the next step.
 step
 goto dreamingcave02_base 19.53,42.79
-'Continue East passed the archway from here
-|tip Manually skip to the next step.
 step
 goto dreamingcave02_base 52.66,26.32
-'Continue Northeast passed the archway from here
-|tip Manually skip to the next step.
 step
 goto dreamingcave02_base 56.04,21.02
-'Press _E_ to Use _Portal to Valsirenn's Study_
-|tip Manually skip to the next step.
+'Press _E_ to Use _Portal to Valsirenn's Study_ |q A Necessary Alliance/Go to Valsirenn's Study
 step
 goto dreamingcave03_base 68.22,39.11
-talk Earl Leythen
-|tip Manually skip to the next step.
+talk Earl Leythen |q A Necessary Alliance/Interrogate Earl Leythen
 step
 goto dreamingcave03_base 66.93,40.50
-talk Valsirenn
-|tip Manually skip to the next step.
+talk Valsirenn |q A Necessary Alliance/Talk to Valsirenn
 step
 'Open your map. Right click twice to bring up the Universe map. Select Tamriel.
 click Ebon Stadmont Wayshrine
@@ -20316,100 +20178,85 @@ click Ebon Stadmont Wayshrine
 |tip Manually skip to the next step.
 step
 goto summerset_base 34.35,35.43
-'Continue West on the main road from here
-|tip Manually skip to the next step.
 step
 goto summerset_base 32.75,35.76
-'At the fork in the road, continue West from here
-|tip Manually skip to the next step.
 step
 goto summerset_base 30.19,35.49
-'At the fork in the road, go right from here
-|tip Manually skip to the next step.
+step
+goto summerset_base 29.19,34.60
 step
 goto summerset_base 28.81,31.95
-'At the fork in the road, continue North from here
-|tip Manually skip to the next step.
 step
 goto summerset_base 27.93,29.23
-'Continue West from here
-|tip Manually skip to the next step.
 step
 goto summerset_base 27.39,29.16
 talk Ruliel
 accept Wasting Away
 step
-goto summerset_base 27.39,29.16
-talk Faidur
-|tip Manually skip to the next step.
+goto summerset_base 27.37,29.13
+talk Faidur |q Wasting Away/Talk to Faidur
 step
-goto summerset_base 27.47,28.27
-'Continue West from here
-|tip Manually skip to the next step.
+goto summerset_base 26.32,29.08
 step
 goto summerset_base 25.70,28.26
-'Press _E_ to Use _Broken Window_
+'Head to the Ruins of Corgrad |q Wasting Away/Head to the Ruins of Corgrad
+step
+goto summerset_base 25.70,28.26
+click 'Press _E_ to Use _Broken Window_
 |tip Manually skip to the next step.
 step
 goto corgradwastehigher2_base 12.34,43.21
-talk Faidur
-|tip Manually skip to the next step.
+talk Faidur |q Wasting Away/Talk to Faidur
 step
 goto corgradwastehigher2_base 11.37,40.64
-'Press _E_ to Examine _Worn Statue Inscription_
-|tip Manually skip to the next step.
+'Press _E_ to Examine _Worn Statue Inscription_ |q Wasting Away/Search the Buried Manor for Clues to Its Past
 step
 goto corgradwastehigher2_base 12.04,41.73
-talk Faidur
-|tip Manually skip to the next step.
+talk Faidur |q Wasting Away/Talk to Faidur
 step
 goto corgradwastehigher2_base 14.35,40.58
-'Press _E_ to Take _Rultari's Journal_
-|tip Manually skip to the next step.
+'Press _E_ to Take _Rultari's Journal_ |q Wasting Away/Search the Upstairs Landing
 step
 goto corgradwastehigher2_base 14.35,40.58
-talk Faidur
-|tip Manually skip to the next step.
+talk Faidur |q Wasting Away/Talk to Faidur
 step
 goto corgradwastehigher2_base 17.21,42.69
-'Press _E_ to Take _Please Respond, Your Beloved Aunt_
-|tip Manually skip to the next step.
+'Press _E_ to Take _Please Respond, Your Beloved Aunt_ |q Wasting Away/Search the Adjacent Room
 step
 goto corgradwastehigher2_base 13.98,43.77
 'Run down the stairs from here
 |tip Manually skip to the next step.
 step
-goto corgradwasteslower_base 15.02,43.49
-talk Faidur
-|tip Manually skip to the next step.
+goto corgradwasteslower_base 14.78,43.21
+talk Faidur |q Wasting Away/Talk to Faidur
 step
-goto corgradwasteslower_base 14.37,38.32
-'Follow the path North from here and exit into a large chamber
-|tip Manually skip to the next step.
+goto corgradwasteslower_base 15.38,28.72
 step
-goto corgradwasteslower_base 30.99,28.52
-'Press _E_ to Take _Karnhar's Journal_
-|tip Manually skip to the next step.
+goto corgradwasteslower_base 23.17,22.90
 step
 goto corgradwasteslower_base 30.99,28.52
-talk Faidur
-|tip Manually skip to the next step.
+'Search the Underground Passages |q Wasting Away/Search the Underground Passages
 step
-goto corgradwasteslower_base 35.99,31.14
-'Continue Southeast through the passage from here
+goto corgradwasteslower_base 30.99,28.52
+'Press _E_ to Take _Karnhar's Journal_ |q Wasting Away/Search Campsite
+step
+goto corgradwasteslower_base 30.99,28.52
+talk Faidur
 |tip Manually skip to the next step.
 step
 goto corgradwasteslower_base 39.14,31.95
-'At the fork in the path, go right from here
-|tip Manually skip to the next step.
 step
-goto corgradwasteslower_base 48.75,42.97
-'Exit the passage from here into a large chamber
-|tip Manually skip to the next step.
+goto corgradwasteslower_base 45.69,35.73
+step
+goto corgradwasteslower_base 44.95,39.45
+step
+goto corgradwasteslower_base 57.31,47.16
 step
 goto corgradwasteslower_base 69.03,36.69
-talk Arillas
-|tip Manually skip to the next step.
+'Search the Cavern |q Wasting Away/Search the Cavern
+step
+goto corgradwasteslower_base 69.03,36.69
+talk Arillas |q Wasting Away/Talk to Cavern Dwellers
 step
 goto corgradwasteslower_base 69.22,37.04
 talk Faidur
@@ -20424,8 +20271,10 @@ goto corgradwasteslower_base 73.01,21.41
 |tip Manually skip to the next step.
 step
 goto corgradwasteslower_base 87.85,21.10
-'Press _E_ to Take _Karnhar's Letter_
-|tip Manually skip to the next step.
+'Find Missing Persons |q Wasting Away/Find Missing Persons
+step
+goto corgradwasteslower_base 87.85,21.10
+'Press _E_ to Take _Karnhar's Letter_ |q Wasting Away/Search the Bodies
 step
 goto corgradwasteslower_base 78.09,18.23
 'Press _E_ to Use _Buried Vaults_
@@ -20436,109 +20285,91 @@ goto corgradwasteslower_base 70.90,47.97
 |tip Manually skip to the next step.
 step
 goto corgradwasteslower_base 86.85,76.38
-'Continue Southwest from here
-|tip Manually skip to the next step.
 step
 goto corgradwasteslower_base 76.87,81.24
-'Continue Northwest from here
-|tip Manually skip to the next step.
 step
 goto corgradwasteslower_base 69.31,73.46
-click Buried Vaults
-|tip Manually skip to the next step.
+click Buried Vaults |q Wasting Away/Find Faidur
 step
 goto corgradwasteslower_base 61.12,64.77
-'Continue West passed the archway from here
-|tip Manually skip to the next step.
 step
-goto corgradwasteslower_base 49.25,62.18
+goto corgradwasteslower_base 48.90,58.57
 'Continue North through the archway here and run up the stairs
 |tip Manually skip to the next step.
 step
 goto corgradwasteshigher_base 43.30,68.07
-'Continue South passed the archway from here
-|tip Manually skip to the next step.
 step
 goto corgradwasteshigher_base 44.23,71.20
-talk Henrigg
-|tip Manually skip to the next step.
+'Pursue Faidur's Abductors |q Wasting Away/Pursue Faidur's Abductors
 step
-goto corgradwasteshigher_base 43.47,77.05
-'Continue South passed the archway from here
-|tip Manually skip to the next step.
+goto corgradwasteshigher_base 44.49,71.46
+talk Henrigg |q Wasting Away/Talk to Henrigg
+step
+goto corgradwasteshigher_base 43.36,77.46
 step
 goto corgradwasteshigher_base 46.53,83.22
 'Continue East passed the archway here and run down the stairs
 |tip Manually skip to the next step.
 step
 goto corgradwasteslower_base 55.27,77.29
-'Continue South passed the archway from here
-|tip Manually skip to the next step.
 step
 goto corgradwasteslower_base 56.97,81.81
-'Press _E_ to Use _Rusty Lockbox_
-'Take Arillas's Keys
-|tip Manually skip to the next step.
+'Press _E_ to Use _Rusty Lockbox_ |q Wasting Away/Find Arillas's Keys
+'Take _Arillas's Keys_
 step
 goto corgradwasteslower_base 55.66,79.77
 'Continue North passed the archway here and run up the stairs
 |tip Manually skip to the next step.
 step
 goto corgradwasteshigher_base 48.75,83.29
-'Continue West passed the archway here
-|tip Manually skip to the next step.
+step
+goto corgradwasteshigher_base 43.30,83.39
 step
 goto corgradwasteshigher_base 44.55,76.61
-'Press _E_ to Use Key _Shackles_
-|tip Manually skip to the next step.
+'Press _E_ to Use Key _Shackles_ |q Wasting Away/.*Rescue the Prisoners.* |count 1
 step
 goto corgradwasteshigher_base 44.90,72.40
-'Press _E_ to Use Key _Shackles_
-|tip Manually skip to the next step.
+'Press _E_ to Use Key _Shackles_ |q Wasting Away/.*Rescue the Prisoners.* |count 2
 step
 goto corgradwasteshigher_base 45.01,73.27
-talk Henrigg
-|tip Manually skip to the next step.
+talk Henrigg |q Wasting Away/Talk to Henrigg
 step
 goto corgradwasteshigher_base 39.49,74.09
-click Savoirs' Crypt
-|tip Manually skip to the next step.
+click Savoirs' Crypt |q Wasting Away/Save Faidur
 step
-goto corgradwasteshigher_base 34.49,75.01
-talk Kinlord Nemfarion
-|tip Manually skip to the next step.
+goto corgradwasteshigher_base 34.23,74.92
+talk Kinlord Nemfarion |q Wasting Away/Talk to Nemfarion
 step
-goto corgradwasteshigher_base 33.71,73.05
-talk Kinlady Taanwae
-|tip Manually skip to the next step.
-step
-goto corgradwasteshigher_base 32.08,73.35
-talk Rultarion
-|tip Manually skip to the next step.
-step
-goto corgradwasteshigher_base 32.01,74.44
+goto corgradwasteshigher_base 32.17,74.85
 talk Murderil
 |tip Manually skip to the next step.
 step
-goto corgradwasteshigher_base 33.80,74.20
-'Press _E_ to Break _Embalming Stone_
+goto corgradwasteshigher_base 31.99,73.96
+talk Rultarion
 |tip Manually skip to the next step.
+step
+goto corgradwasteshigher_base 33.01,73.25
+talk Kinlady Taanwae
+|tip Manually skip to the next step.
+step
+goto corgradwasteshigher_base 33.56,73.42
+'Press _E_ to Break _Embalming Stone_ |q Wasting Away/Destroy the Embalming Stone
 step
 goto corgradwasteshigher_base 35.90,72.87
-talk Faidur
-|tip Manually skip to the next step.
+talk Faidur |q Wasting Away/Talk to Faidur
 step
 goto corgradwasteshigher_base 34.10,70.92
-'Run up the stairs from here
-|tip Manually skip to the next step.
 step
 goto corgradwasteshigher_base 23.99,74.16
 click Corgrad Wastes
 |tip Manually skip to the next step.
 step
 goto corgradwasteshigher_base 18.41,64.46
-kill Arillas
-|tip Manually skip to the next step.
+'Help the Prisoners Escape |q Wasting Away/Help the Prisoners Escape
+step
+goto corgradwasteshigher_base 18.41,64.46
+kill Arillas |q Wasting Away/Kill Arillas
+|tip The boss has two special attacks. The first is health siphoning, which can be interrupted, and a telegraphing charge that's easy to avoid. It is a simple fight otherwise.
 step
 goto corgradwasteshigher_base 20.28,58.64
 'Continue Northeast through this passage
@@ -20549,387 +20380,76 @@ goto corgradwasteslower_base 22.73,46.77
 |tip Manually skip to the next step.
 step
 goto corgradwastehigher2_base 25.34,47.51
-click Corgrad Wastes
-|tip Manually skip to the next step.
+click Corgrad Wastes |q Wasting Away/Escape to the Surface
 step
-goto summerset_base 25.46,28.38
+goto summerset_base 25.43,28.38
 'Press _E_ to Open _Thieves Guild Dead Drop_
 'Take The Inescapable Helm
 'This is a _RELIC OF SUMMERSET_
 |tip Manually skip to the next step.
 step
 goto summerset_base 26.05,28.87
-'Continue East from here
-|tip Manually skip to the next step.
 step
 goto summerset_base 27.35,29.17
-talk Ruliel
-|tip Manually skip to the next step.
+talk Ruliel |q Wasting Away/Talk to Ruliel
 step
 goto summerset_base 27.35,29.17
 talk Faidur
-|tip Manually skip to the next step.
+turnin Wasting Away
 step
 goto summerset_base 28.05,28.58
-'At the fork in the road, go North from here
-|tip Manually skip to the next step.
 step
 goto summerset_base 28.27,24.81
 wayshrine The Crystal Tower
-|tip Manually skip to the next step.
 step
-goto summerset_base 29.26,23.25
-'Follow the path North from here
-|tip Manually skip to the next step.
+goto summerset_base 28.58,25.12
 step
-goto summerset_base 29.77,21.13
-talk Renzir
-accept An Unexpected Betrayal
+goto summerset_base 29.09,25.01
 step
-goto summerset_base 30.11,20.88
-'Press _E_ to Enter _Karnwasten Public Dungeon_
-'I recommend _Crown Fortified Meal_. Also, you must _have lockpicks_.
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 10.17,60.23
-'Exit the passage Northeast from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 11.44,57.72
-'Cross the bridge from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 14.89,54.83
-'Continue through the passage Northeast from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 19.11,52.13
-'Continue Southeast into the passage from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 26.10,60.99
-'Continue Southeast from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 32.88,69.61
-'Continue Southwest from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 20.12,71.52
-'Continue Northwest from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 18.45,68.16
-kill Gilleruk the Viscous
-'This is a fairly difficulty fight solo. Use health spells and potions and you'll be fine.
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 17.42,64.16
-'Press _E_ to Open _Trade Shipment_
-'Take Valenwood Perfume
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 19.43,70.63
-'Enter the passage from here and continue East
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 31.52,71.07
-'Enter the passage from here and continue Northwest
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 26.96,61.96
-'Continue Northwest from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 24.42,58.56
-'Enter the passage from here and continue Northwest
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 17.08,48.55
-'Continue North to the wooden planks from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 17.84,45.84
-'Run down the wooden planks from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 22.35,49.60
-'Run down the wooden planks from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 26.49,43.04
-'Press _E_ to Open _Trade Shipment_
-'Take Azura Idol
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 24.88,44.79
-'Run up the wooden planks from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 19.94,49.82
-'Run up the wooden planks from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 17.46,45.83
-'Continue Southeast from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 19.08,51.75
-'Enter the passage and continue Southeast from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 27.37,59.19
-'Enter the passage and continue Northeast from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 33.86,55.51
-'Continue Southeast from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 37.34,60.25
-'Continue East from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 48.60,59.65
-'Continue East from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 51.81,58.34
-'Skip _Nolore Stieve_ (unless you're in a group). This is a difficult fight solo.
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 58.90,58.47
-'Follow the pier Northwest from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 52.38,57.86
-kill Madja
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 51.90,52.77
-'Run on the pier North from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 51.86,46.25
-talk Cainar
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 52.08,53.83
-'Follow the pier Southeast from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 61.68,60.44
-'Follow the path Southeast from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 67.10,62.08
-'Press _E_ to Open _Trade Shipment_
-'Take Book of Tamriel Religions
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 70.25,64.22
-'Go through this passage from here and continue Southeast
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 76.17,67.29
-'Continue East from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 85.32,69.35
-talk Grog
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 85.25,69.47
-'Press _E_ to use lockpicks to Unlock _Grog's Chains_
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 85.25,69.47
-talk Grog
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 85.51,68.62
-'Continue Northwest from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 75.98,67.32
-'Continue Northwest from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 61.39,60.97
-'Continue West from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 58.15,58.01
-'Continue Northwest on the pier from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 55.92,55.64
-'Follow the dock North from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 55.74,49.25
-'Board the ship from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 57.79,48.05
-talk Nubani
-'Select _"No. I made a deal with Renzir, and I'm going to honor that."_
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 57.27,49.35
-'Exit the ship to the dock from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 55.72,49.28
-'Jump into the water here and swim Northwest
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 52.12,46.09
-talk Cainar
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 52.20,46.01
-'Jump in the water from here and swim East
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 61.39,48.26
-'Follow the dock South from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 61.77,60.62
-'Continue Southeast from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 68.32,62.16
-'Continue Northeast from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 70.25,58.11
-'Continue Northwest from here
-|tip Manually skip to the next step.
-step
-goto Sum_Karnwasten_base 69.95,51.09
-click Summerset
-|tip Manually skip to the next step.
-step
-goto summerset_base 44.33,13.80
-wayshrine Veyond Wyte
-|tip Manually skip to the next step.
-step
-goto summerset_base 44.69,13.55
-'Follow the path Northeast from here
-|tip Manually skip to the next step.
-step
-goto summerset_base 45.86,12.94
-'Follow the path East from here
-|tip Manually skip to the next step.
-step
-goto summerset_base 46.97,13.52
-'Follow the path Southwest from here
-|tip Manually skip to the next step.
-step
-goto summerset_base 46.77,14.39
-'Cross the river from here
-|tip Manually skip to the next step.
-step
-goto summerset_base 46.92,15.28
-'Press _E_ to Read _Nafarion's Note_
-accept His Final Gift
-step
-goto summerset_base 47.01,15.27
-'Press _E_ to Take _Nafarion's Pack_
-'Take Nafarion's Pendant
-|tip Manually skip to the next step.
-step
-'Open your map:
-click Lillandril Wayshrine
-'Travel to the _Lillandril_ Wayshrine
-|tip Manually skip to the next step.
-step
-goto lillandrill_base 40.54,69.11
-'Run up the stairs from here
-|tip Manually skip to the next step.
-step
-goto lillandrill_base 50.29,53.70
-'Run up the stairs from here
-|tip Manually skip to the next step.
-step
-goto lillandrill_base 53.51,43.19
-'Run up the stairs from here
-|tip Manually skip to the next step.
-step
-goto lillandrill_base 43.20,39.59
-'From this point, search in the area in the circle for Felanwen. When you locate her
-talk Feldawen
-|tip Manually skip to the next step.
-step
-'Open your map:
-click The Crystal Tower Wayshrine
-'Travel to the _The Crystal Tower_ Wayshrine
-|tip Manually skip to the next step.
-step
-goto summerset_base 29.34,22.92
-'Continue to follow the path North from here
-|tip Manually skip to the next step.
-step
-goto summerset_base 29.79,21.17
-talk Renzir
-'Select _"[Persuade] Nubani wanted me to destroy them so you'd have to sell your ship."_
-|tip Manually skip to the next step.
-step
-goto summerset_base 29.34,22.92
-'Continue to follow the path Sotuh from here
-|tip Manually skip to the next step.
-step
-goto summerset_base 28.62,25.08
-'Run up both sets the stairs from here
-|tip Manually skip to the next step.
+goto summerset_base 29.47,25.36
+'Go to the Crystal Tower Gatehouse |q A Necessary Alliance/Go to the Crystal Tower Gatehouse
 step
 goto summerset_base 29.12,25.69
 click Watchtower
 |tip Manually skip to the next step.
 step
 goto summerset_base 28.81,25.86
-'Run up the stairs and press _E_ to Climb _Watchtower Turret_
-|tip Manually skip to the next step.
 step
 goto summerset_base 28.93,25.72
-talk Razum-dar
-|tip Manually skip to the next step.
+talk Razum-dar |q A Necessary Alliance/Talk to Razum-dar in the Watchtower
 step
 goto summerset_base 28.86,25.84
 click Watchtower
 |tip Manually skip to the next step.
 step
-goto summerset_base 28.87,25.66
-'Run down the stairs and
-click Summerset
-|tip Manually skip to the next step.
+goto summerset_base 29.60,25.26
 step
-goto summerset_base 29.53,25.43
-'Run up three sets the stairs from here
-|tip Manually skip to the next step.
+goto summerset_base 30.00,25.88
+step
+goto summerset_base 30.65,26.03
 step
 goto summerset_base 31.08,25.09
-'Run up the stairs from here
-|tip Manually skip to the next step.
 step
 goto summerset_base 31.97,24.77
-talk Valsirenn
-|tip Manually skip to the next step.
+'Go to the Crystal Tower Gatehouse |q A Necessary Alliance/Go to the Crystal Tower Gatehouse
+step
+goto summerset_base 31.97,24.77
+talk Valsirenn |q A Necessary Alliance/Talk to Valsirenn
 step
 goto summerset_base 32.05,25.75
-'Kill the three waves of mobs. Note: You must survive all three or else the event with reset.
-|tip Manually skip to the next step.
+'Defend the South Ritual Platform |q A Necessary Alliance/Defend the South Ritual Platform
+|tip Kill the three waves of mobs. Note: You must survive all three or else the event with reset.
 step
 goto summerset_base 31.44,24.03
-'As before, kill the three waves of mobs. Note: You must survive all three or else the event with reset.
-|tip Manually skip to the next step.
+'Defend the North Ritual Platform |q A Necessary Alliance/Defend the North Ritual Platform
+|tip As before, kill the three waves of mobs. Note: You must survive all three or else the event with reset.
 step
 goto summerset_base 31.96,24.78
-talk Valsirenn
-'Select either choice.
-|tip Manually skip to the next step.
+'Check on the Tower Sentinels |q A Necessary Alliance/Check on the Tower Sentinels
+step
+goto summerset_base 31.96,24.78
+talk Valsirenn |q A Necessary Alliance/Talk to Valsirenn
+|tip Pick either choice. It doesn't matter which. Both lead to the same outcome.
 step
 'Open your map:
 click Alinor Wayshrine
@@ -20937,111 +20457,83 @@ click Alinor Wayshrine
 |tip Manually skip to the next step.
 step
 goto alinor_base 48.16,49.27
-'Follow the road Northwest from here
-|tip Manually skip to the next step.
 step
 goto alinor_base 41.49,44.52
-'Follow the road North from here
-|tip Manually skip to the next step.
 step
 goto alinor_base 40.74,31.65
-'Run down the stairs from here
-|tip Manually skip to the next step.
 step
 goto alinor_base 36.49,32.65
-talk Razum-dar
-|tip Manually skip to the next step.
+talk Razum-dar |q A Necessary Alliance/Talk to Razum-dar in Alinor
 step
 goto alinor_base 34.75,33.45
-'Follow the road South from here
-|tip Manually skip to the next step.
 step
 goto alinor_base 35.14,52.74
-'Run up the three sets of stairs from here
-|tip Manually skip to the next step.
 step
 goto alinor_base 46.38,60.39
-'Run up to the Talking Dog and follow it
-|tip Manually skip to the next step.
+'Meet the Dog in the Alinor Gardens |q A Necessary Alliance/Meet the Dog in the Alinor Gardens
 step
 goto alinor_base 45.71,68.51
-talk Barbas
-|tip Manually skip to the next step.
+'Follow the Strange Dog |q A Necessary Alliance/Follow the Strange Dog
 step
-'Open your map:
+goto alinor_base 45.71,68.51
+talk Barbas |q A Necessary Alliance/Talk to Barbas
+step
+'Open your map. Right click to bring up the Summerset map.
 click Cey-Tarn Keep Wayshrine
 'Travel to the _Cey-Tarn Keep_ Wayshrine
 |tip Manually skip to the next step.
 step
-goto summerset_base 30.71,51.28
-'Continue Southeast up the hill from here
-|tip Manually skip to the next step.
+goto summerset_base 30.72,51.25
 step
 goto summerset_base 32.51,51.70
-'Continue Southeast across the landscape from here
-|tip Manually skip to the next step.
 step
-goto summerset_base 34.50,52.17
-'Continue Southeast across the landscape from here
-|tip Manually skip to the next step.
+goto summerset_base 33.72,51.81
 step
-goto summerset_base 34.83,52.46
-'Continue South across the landscape from here
-|tip Manually skip to the next step.
+goto summerset_base 34.42,51.54
+step
+goto summerset_base 34.29,52.10
+step
+goto summerset_base 34.87,52.38
 step
 goto summerset_base 35.30,54.31
-'Continue South across the landscape from here
-|tip Manually skip to the next step.
+step
+goto summerset_base 34.95,55.18
+'Find Clavicus Vile's Cave |q A Necessary Alliance/Find Clavicus Vile's Cave
 step
 goto summerset_base 34.95,55.18
 click The Vaults of Heinarwe
 |tip Manually skip to the next step.
 step
 goto ceytarncaveExt01_base 81.22,50.29
-'Follow the path of the cave until you exit
-|tip Manually skip to the next step.
 step
-goto ceytarncaveExt01_base 60.84,47.63
-'Continue Southwest from here
-|tip Manually skip to the next step.
+goto ceytarncaveExt01_base 65.07,47.49
 step
 goto ceytarncaveExt01_base 51.60,60.50
-'Continue across the bridge
-|tip Manually skip to the next step.
 step
 goto ceytarncaveExt01_base 26.29,35.10
 click The Vaults of Heinarwe
 |tip Manually skip to the next step.
 step
-goto ceytarncaveInt02_base
-|tip Manually skip to the next step.
-step
 goto ceytarncaveInt01_base 20.84,55.50
-'Continue Southeast through the archway from here
-|tip Manually skip to the next step.
 step
 goto ceytarncaveInt01_base 16.34,67.24
-talk Clavicus Vile
-|tip Manually skip to the next step.
+'Find Clavicus Vile |q A Necessary Alliance/Find Clavicus Vile
+step
+goto ceytarncaveInt01_base 16.34,67.24
+talk Clavicus Vile |q A Necessary Alliance/Talk to Clavicus Vile
 step
 goto ceytarncaveInt01_base 16.64,59.10
-'Continue Northeast through the archway here
-|tip Manually skip to the next step.
 step
 goto ceytarncaveInt01_base 40.87,35.58
-'Run up the stairs from here
-|tip Manually skip to the next step.
 step
 goto ceytarncaveInt01_base 88.70,42.86
-'Press _E_ to Examine _Fields of Regret Safebox_
-'Take Fields of Regret Key
-|tip Manually skip to the next step.
+'Press _E_ to Examine _Fields of Regret Safebox_ |q A Necessary Alliance/Gather Vile's Key
+'Take _Fields of Regret Key_
 step
 goto ceytarncaveInt01_base 75.89,42.94
-talk Valsirenn
-|tip Manually skip to the next step.
+talk Valsirenn |q A Necessary Alliance/Talk to Valsirenn
 step
-'Open your map:
+'Open your map. Right click to bring up the Summerset map.
 click Lillandril Wayshrine
 'Travel to the _Lillandril_ Wayshrine
 |tip Manually skip to the next step.
@@ -21051,101 +20543,85 @@ goto lillandrill_base 64.39,67.93
 |tip Manually skip to the next step.
 step
 goto summerset_base 18.52,41.18
-'Follow the road Northeast from here until you reach the fork
-|tip Manually skip to the next step.
 step
 goto summerset_base 22.30,38.38
-'At the fork in the road, go left from here
-|tip Manually skip to the next step.
+step
+goto summerset_base 22.36,38.00
+step
+goto summerset_base 21.25,36.72
 step
 goto summerset_base 22.22,34.28
-'The road will disappear here but can be found Northwest from here
-|tip Manually skip to the next step.
+step
+goto summerset_base 22.43,33.88
 step
 goto summerset_base 21.97,33.25
-'Follow the road from here until you reach the Cathedral of Webs ruins
-|tip Manually skip to the next step.
+step
+goto summerset_base 20.58,33.33
 step
 goto summerset_base 20.18,30.61
-'Follow the path off the main road Northwest from here
-|tip Manually skip to the next step.
 step
 goto summerset_base 20.38,29.29
-talk Darien Gautier
-|tip Manually skip to the next step.
+'Search for Darien and Leythen |q A Necessary Alliance/Search for Darien and Leythen
+step
+goto summerset_base 20.38,29.29
+talk Darien Gautier |q A Necessary Alliance/Talk to Darien Gautier
 step
 goto summerset_base 20.28,29.15
-talk Earl Leythen
-|tip Manually skip to the next step.
+talk Earl Leythen |q A Necessary Alliance/Talk to Earl Leythen
 step
 goto summerset_base 20.28,29.15
-click Cathedral of Webs
-|tip Manually skip to the next step.
+click Cathedral of Webs |q A Necessary Alliance/Enter the Cathedral of Webs
 step
 goto sq7courtofbedlamruins_base 47.61,09.21
-'Run down the stairs from here
-|tip Manually skip to the next step.
 step
 goto sq7courtofbedlamruins_base 47.74,24.71
-'Continue West from here
-|tip Manually skip to the next step.
 step
-goto sq7courtofbedlamruins_base 35.23,29.78
-'Run down the stairs from here
-|tip Manually skip to the next step.
+goto sq7courtofbedlamruins_base 29.78,36.54
 step
 goto sq7courtofbedlamruins_base 37.39,36.92
-'Continue South through the archway
-|tip Manually skip to the next step.
 step
 goto sq7courtofbedlamruins_base 37.47,42.21
-talk Earl Leythen
-|tip Manually skip to the next step.
+'Explore the Cathedral of Webs |q A Necessary Alliance/Explore the Cathedral of Webs
+step
+goto sq7courtofbedlamruins_base 37.47,42.21
+talk Earl Leythen |q A Necessary Alliance/Talk to Earl Leythen
 step
 goto sq7courtofbedlamruins_base 45.80,43.60
 click Cathedral of Webs
 |tip Manually skip to the next step.
 step
 goto sq7courtofbedlamruins_base 59.86,40.05
-'Continue East passed the archway
-|tip Manually skip to the next step.
 step
 goto sq7courtofbedlamruins_base 69.88,37.39
-'Continue South from here
-|tip Manually skip to the next step.
 step
 goto sq7courtofbedlamruins_base 62.27,50.23
-'Continue West from here
-|tip Manually skip to the next step.
 step
 goto sq7courtofbedlamruins_base 37.43,54.29
-'Continue South from here
-|tip Manually skip to the next step.
 step
 goto sq7courtofbedlamruins_base 35.87,61.01
-'Run down both sets of stairs from here
-|tip Manually skip to the next step.
 step
 goto sq7courtofbedlamruins_base 37.85,77.36
-talk Earl Tundilwen
-|tip Manually skip to the next step.
+'Follow Leythen and Nocturnal's Earl |q A Necessary Alliance/Follow Leythen and Nocturnal's Earl
 step
 goto sq7courtofbedlamruins_base 37.85,77.36
-talk Earl Leythen
-|tip Manually skip to the next step.
+talk Earl Tundilwen |q A Necessary Alliance/Talk to Nocturnal's Earl
 step
-goto sq7courtofbedlamruins_base 40.94,83.82
-'Enter the cave entrance here and follow it until you can exit
-|tip Manually skip to the next step.
+goto sq7courtofbedlamruins_base 37.85,77.36
+talk Earl Leythen |q A Necessary Alliance/Talk to Earl Leythen
+step
+goto sq7courtofbedlamruins_base 42.43,90.82
+step
+goto sq7courtofbedlamruins_base 50.83,93.23
+step
+goto sq7courtofbedlamruins_base 63.66,91.53
 step
 goto sq7courtofbedlamruins_base 63.67,76.05
 click Leythen's Chambers
 |tip Manually skip to the next step.
 step
 goto sq7courtofbedlamruins_base 69.58,75.24
-kill Krezzinlor
-'Fairly easy fight with Leythan and Darien
-|tip Manually skip to the next step.
+kill Krezzinlor |q A Necessary Alliance/Go to Leythen's Chamber
+|tip This is a fairly easy boss fight with Leythan and Darien's help
 step
 goto sq7courtofbedlamruins_base 73.30,71.31
 click Cathedral of Webs
@@ -21156,8 +20632,10 @@ click Summerset
 |tip Manually skip to the next step.
 step
 goto summerset_base 21.66,30.88
-talk Mephala
-|tip Manually skip to the next step.
+'Contact Mephala Outside the Ruins |q A Necessary Alliance/Contact Mephala Outside the Ruins
+step
+goto summerset_base 21.66,30.88
+talk Mephala |q A Necessary Alliance/Talk to Mephala
 step
 'Open your map. Right click twice to bring up the Universe map. Select Artaeum in the upper-right corner.
 click Artaeum Wayshrine
@@ -21169,6 +20647,13 @@ click Portal to Ceporah Tower
 |tip Manually skip to the next step.
 step
 goto dreamingcave02_base 40.88,43.35
+talk Valsirenn |q A Necessary Alliance/Talk to Valsirenn
+step
+goto dreamingcave02_base 40.88,43.35
+talk Valsirenn
+turnin A Necessary Alliance
+step
+goto dreamingcave02_base 40.88,43.35
 talk Valsirenn
 accept The Crystal Tower
 step
@@ -21177,22 +20662,19 @@ goto dreamingcave02_base 16.34,42.74
 |tip Manually skip to the next step.
 step
 goto dreamingcave03_base 29.92,40.13
-talk Sotha Sil
-|tip Manually skip to the next step.
+talk Sotha Sil |q The Crystal Tower/Talk to Sotha Sil
 step
 goto dreamingcave03_base 36.46,48.92
 'Press _E_ to Use _Portal to Ceporah Main Gallery_
 |tip Manually skip to the next step.
 step
 goto dreamingcave02_base 14.78,47.22
-'Continue passed this archway until you reach the first room on the right
-|tip Manually skip to the next step.
 step
 goto dreamingcave02_base 24.12,76.49
 talk Darien Gautier
 |tip Manually skip to the next step.
 step
-'Open your map:
+'Open your map. Right click to bring up Artaeum
 click Artaeum Wayshrine
 'Travel to the _Artaeum_ Wayshrine
 |tip Manually skip to the next step.
@@ -21202,64 +20684,61 @@ talk Razum-dar
 |tip Manually skip to the next step.
 step
 goto artaeum_base 65.88,38.55
-'Continue Southwest from here
-|tip Manually skip to the next step.
 step
 goto artaeum_base 61.99,48.47
-'Run up the stairs from here
-|tip Manually skip to the next step.
 step
 goto artaeum_base 60.81,49.64
 talk Valsirenn
 |tip Manually skip to the next step.
 step
 goto artaeum_base 60.81,49.64
-talk Earl Leythen
-|tip Manually skip to the next step.
+talk Earl Leythen |q The Crystal Tower/Talk to Your Companions
 step
-'Open your map:
+'Open your map.
 click Artaeum Wayshrine
 'Travel to the _Artaeum_ Wayshrine
 |tip Manually skip to the next step.
 step
 goto artaeum_base 64.53,26.52
-'Drop here and continue down the stairs
-|tip Manually skip to the next step.
 step
 goto artaeum_base 66.04,27.02
-click The Dreaming Cave
-|tip Manually skip to the next step.
+click The Dreaming Cave |q The Crystal Tower/Enter the Dreaming Cave
 step
 goto dreamingcave01_base 55.38,62.35
-talk Sotha Sil
-|tip Manually skip to the next step.
+talk Sotha Sil |q The Crystal Tower/Talk to Sotha Sil
 step
 goto dreamingcave01_base 55.38,62.35
-talk Mephala
-|tip Manually skip to the next step.
+'Attend the Meeting in the Dreaming Cave |q The Crystal Tower/Attend the Meeting in the Dreaming Cave
 step
-goto dreamingcave01_base 51.73,51.27
-'Press _E_ to Enter _The Dreaming Cave Portal_
+goto dreamingcave01_base 55.38,62.35
+talk Mephala |q The Crystal Tower/Talk to Mephala
+step
+goto dreamingcave01_base 55.38,62.35
+'Wait for the Portal to Reset |q The Crystal Tower/Wait for the Portal to Reset
+step
+goto dreamingcave01_base 50.99,53.02
+'Press _E_ to Enter _The Dreaming Cave Portal_ |q The Crystal Tower
 |tip Manually skip to the next step.
 step
 goto crystaltower_approach_base 25.11,32.69
-'Follow the path to the Crystal Tower
-|tip Manually skip to the next step.
+step
+goto crystaltower_approach_base 26.07,38.53
+step
+goto crystaltower_approach_base 67.39,31.68
 step
 goto crystaltower_approach_base 67.19,59.58
-talk Barbas
-|tip Manually skip to the next step.
+'Reach the Entrance of the Crystal Tower |q The Crystal Tower/Reach the Entrance of the Crystal Tower
+step
+goto crystaltower_approach_base 67.19,59.58
+talk Barbas |q The Crystal Tower/Talk to Barbas
 step
 goto crystaltower_approach_base 68.10,60.54
-click The Crystal Tower
-|tip Manually skip to the next step.
+click The Crystal Tower |q The Crystal Tower/Enter the Crystal Tower
 step
-goto crystaltower_entryway_base 49.05,47.72
-'Run up the stairs from here
-|tip Manually skip to the next step.
+goto crystaltower_entryway_base 54.60,48.14
 step
 goto crystaltower_entryway_base 59.38,74.78
-'Run up both sets of stairs from here
+'Continue up the stairs from here
 |tip Manually skip to the next step.
 step
 goto crystaltower_entryway02_base 49.87,48.59
@@ -21267,91 +20746,81 @@ click Tower Walkway
 |tip Manually skip to the next step.
 step
 goto crystaltower_unfolding_base 49.99,89.53
-click Tower Artifact Vault
-|tip Manually skip to the next step.
+click Tower Artifact Vault |q The Crystal Tower/Ascend the Crystal Tower
 step
 goto crystaltower_trophy01_base 51.59,34.09
-kill Guardian Atronach
-'Not too difficult to kill. Just stay out of the red circles.
-|tip Manually skip to the next step.
+kill Guardian Atronach |q The Crystal Tower/Find a Way Out of the Artifact Vault
+|tip The Guardian Atronach isn't too difficult to kill. Just stay out of the telegraphing circles.
 step
 goto crystaltower_trophy01_base 51.14,20.84
-talk Sapiarch Nolyemal
-|tip Manually skip to the next step.
+talk Sapiarch Nolyemal |q The Crystal Tower/Talk to the Sapiarch
 step
 goto crystaltower_trophy01_base 49.03,46.88
 'Run up both sets of stairs from here
 |tip Manually skip to the next step.
 step
 goto crystaltower_trophy02_base 52.04,48.55
-'Press _E_ to Examine _Ancient Ballista_
-|tip Manually skip to the next step.
+'Press _E_ to Examine _Ancient Ballista_ |q The Crystal Tower/Find the Broken Ballista
 step
 goto crystaltower_trophy02_base 52.04,48.55
 'Run down both sets of stairs from here
 |tip Manually skip to the next step.
 step
-goto crystaltower_trophy01_base 42.84,60.76
-'Continue West through this archway
-|tip Manually skip to the next step.
+goto crystaltower_trophy01_base 37.56,61.04
 step
 goto crystaltower_trophy01_base 29.48,86.83
 'Press _E_ to Take _Ballista Crank_
-'Take Ballista Crank
+'Take _Ballista Crank_
 |tip Manually skip to the next step.
 step
-goto crystaltower_trophy01_base 58.74,60.45
-'Continue East through this archway
-|tip Manually skip to the next step.
+goto crystaltower_trophy01_base 37.56,61.04
+step
+goto crystaltower_trophy01_base 64.99,60.71
 step
 goto crystaltower_trophy01_base 68.74,82.45
 'Press _E_ to Take _Ballista Bolts_
-'Take Ballista Bolts
+'Take _Ballista Bolts_
 |tip Manually skip to the next step.
+step
+goto crystaltower_trophy01_base 64.99,60.71
+step
+goto crystaltower_trophy01_base 57.14,59.30
 step
 goto crystaltower_trophy01_base 59.08,46.73
-'Continue East through this archway
-|tip Manually skip to the next step.
 step
 goto crystaltower_trophy01_base 74.61,35.21
-'Press _E_ to Take _Coil of Rope_
-'Take Coil of Rope
-|tip Manually skip to the next step.
+'Press _E_ to Take _Coil of Rope_ |q The Crystal Tower/Find the Missing Pieces to the Ballista
+'Take _Coil of Rope_
 step
 goto crystaltower_trophy01_base 49.03,46.88
 'Run up both sets of stairs from here
 |tip Manually skip to the next step.
 step
 goto crystaltower_trophy02_base 52.80,47.45
-talk Darien Gautier
-|tip Manually skip to the next step.
+talk Darien Gautier |q The Crystal Tower/Bring the Ballista Parts to Darien
 step
 goto crystaltower_trophy02_base 52.80,47.45
-'Press _E_ to Use _Repaired Ballista_
-'Aim and fire the Ballista towards the rubble on the far end of the bridge. Afterward, aim and shoot at the Wraith of Crows that'll appear. Press ESC to leave Ballista.
-|tip Manually skip to the next step.
+'Press _E_ to Use _Repaired Ballista_ |q The Crystal Tower/Use the Ballista on the Blocked Passage
+|tip Aim and fire the Ballista towards the rubble on the far end of the bridge.
 step
 goto crystaltower_trophy02_base 51.63,70.09
 click Tower Library
 |tip Manually skip to the next step.
 step
 goto crystaltower_library_base 55.07,93.02
-'Run up the stairs from here
-|tip Manually skip to the next step.
 step
 goto crystaltower_library_base 53.51,71.64
-'Continue North through this archway
-|tip Manually skip to the next step.
 step
 goto crystaltower_library_base 43.20,62.25
-'Run up the stairs from here
-|tip Manually skip to the next step.
+step
+goto crystaltower_library_base 42.94,21.42
+'Ascend the Crystal Tower |q The Crystal Tower/Ascend the Crystal Tower
 step
 goto crystaltower_library_base 42.94,21.42
 'Press _E_ to Use _Key Pedestal_
 |tip Manually skip to the next step.
 step
-goto crystaltower_library_base 42.94,21.42
+goto crystaltower_library_base 43.94,19.04
 'Jump down from here to the floor below
 |tip Manually skip to the next step.
 step
@@ -21360,62 +20829,67 @@ goto crystaltower_library_base 48.41,12.49
 'Upcoming mini boss fight:
 kill Gloam Minotaur
 kill Custodian Simohil
-'Not a hard fight, but you'll need to pay attention to the moving AOE circles from the custodian. Meanwhile, try and stay behind the Minotaur. Its blows are strong. The best strategy is to focus on Minotaur first, then the custodian.
+|tip Not a hard fight, but you'll need to pay attention to the moving AOE telegraphs from the Custodian. Meanwhile, try and stay behind the Minotaur as its blows are strong. The best strategy is to focus on Minotaur first, then the custodian.
 |tip Manually skip to the next step.
 step
 goto crystaltower_library_base 43.20,62.25
-'Make your way South through the bookcase maze (of sorts) and run up the stairs from here
-|tip Manually skip to the next step.
 step
 goto crystaltower_library_base 42.94,21.42
-'Press _E_ to Use _Key Pedestal_
-|tip Manually skip to the next step.
+'Press _E_ to Use _Key Pedestal_ |q The Crystal Tower/Open the Library Gate
 step
 goto crystaltower_library_base 42.94,21.42
-talk Earl Leythen
-|tip Manually skip to the next step.
+talk Earl Leythen |q The Crystal Tower/Talk to Earl Leythen
 step
 goto crystaltower_library_base 54.80,19.54
-'Run through the gate
-|tip Manually skip to the next step.
 step
 goto crystaltower_library_base 56.62,19.66
-talk Earl Leythen
-|tip Manually skip to the next step.
+'Get Through the Opened Gate |q The Crystal Tower/Get Through the Opened Gate
+step
+goto crystaltower_library_base 56.62,19.66
+talk Earl Leythen |q The Crystal Tower/Talk to Earl Leythen
+|tip Either choice is up to you.
 step
 goto crystaltower_library_base 69.53,31.52
 click Tower Mausoleum
 |tip Manually skip to the next step.
 step
 goto crystaltower_mausoleum_base 50.33,40.56
-'Run up the stairs from here and circle around up to the third floor
-|tip Manually skip to the next step.
+step
+goto crystaltower_mausoleum_base 44.98,27.74
+step
+goto crystaltower_mausoleum_base 54.50,21.90
+step
+goto crystaltower_mausoleum_base 63.00,29.65
+step
+goto crystaltower_mausoleum_base 63.00,69.15
+step
+goto crystaltower_mausoleum_base 54.89,74.64
+step
+goto crystaltower_mausoleum_base 45.23,70.52
 step
 goto crystaltower_mausoleum_base 43.96,57.95
-'Continue West through the archway from here and up the stairs
-|tip Manually skip to the next step.
 step
 goto crystaltower_mausoleum_base 10.58,37.15
 click Tower Summit Approach
 |tip Manually skip to the next step.
 step
 goto crystaltower_barrier_base 16.84,75.41
-'Run up the stairs from here
-|tip Manually skip to the next step.
 step
 goto crystaltower_barrier_base 58.29,50.11
-'Upcoming mini boss fight:
-kill Earl Tundilwen
-'For this fight, avoid her AOE circles. They travel out of Tundilwen in random patterns. Interrupt her red telegraphs. Block her yellow telegraphs. Get behind Darien when he yells this. Failure will result in an instant kill from Duskbringer; the weapon Tundilwen wields.
-|tip Manually skip to the next step.
+'Ascend the Tower |q The Crystal Tower/Ascend the Tower
+step
+goto crystaltower_barrier_base 58.29,50.11
+kill Veya Releth |q The Crystal Tower/Defeat Nocturnal's Champion
+|tip Hide behind any pillar to protect yourself from Tundilwen's AOE telegraphs. They travel out of her in random patterns. Interrupt her red telegraphs and block her yellow telegraphs whenever possible. Get behind Darien when he yells to do so as failure will result in an instant kill from Duskbringer (the weapon Tundilwen wields).
 step
 goto crystaltower_barrier_base 86.02,51.28
-talk Darien Gautier
-|tip Manually skip to the next step.
+talk Darien Gautier |q The Crystal Tower/Talk to Darien Gautier
 step
 goto crystaltower_barrier_base 86.02,51.28
-'Press _E_ to Take _Restored Dawnbreaker_
-|tip Manually skip to the next step.
+'Cleanse the Dawnbreaker |q The Crystal Tower/Cleanse the Dawnbreaker
+step
+goto crystaltower_barrier_base 86.02,51.28
+'Press _E_ to Take _Restored Dawnbreaker_ |q The Crystal Tower/Take the Restored Dawnbreaker
 step
 goto crystaltower_barrier_base 89.52,50.96
 click Pinnacle of Transparent Law
@@ -21425,35 +20899,41 @@ goto crystaltower_top_base 80.47,64.08
 'Press _E_ to Use _Portal to the Crystal Summit_
 |tip Manually skip to the next step.
 step
-goto crystaltower_top02_base 30.70,40.00
-'Run around the parameter walkway and up the stairs from here
-|tip Manually skip to the next step.
+goto crystaltower_top02_base 77.05,49.40
+step
+goto crystaltower_top02_base 70.53,36.50
+step
+goto crystaltower_top02_base 51.98,27.18
+step
+goto crystaltower_top02_base 37.21,29.77
+step
+goto crystaltower_top02_base 30.58,37.15
 step
 goto crystaltower_top02_base 48.56,49.76
-'Press _E_ to _Use Dawnbreaker_
-'Upcoming mini boss fight:
-kill Shadow Tundilwen
-'This fight happens in two phases:
+'Use the Dawnbreaker to Confront Nocturnal |q The Crystal Tower/Use the Dawnbreaker to Confront Nocturnal
+step
+goto crystaltower_top02_base 48.56,49.76
+kill Shadow Veya |q The Crystal Tower/Stop Nocturnal
 '_PHASE 1._ Two-Handed Shadow Tundilwen has several single-focus attacks that are easy to avoid.
-'_PHASE 2._ After you kill her, Nocturnal will raise her up as a more powerful Six-Handed version where she has even greater AOE damage abilities. The most powerful of these is Singularity.
 'Meanwhile, use the Dawnbreaker's abilities when waves of mobs appear.
-|tip Manually skip to the next step.
+step
+goto crystaltower_top02_base 48.56,49.76
+kill Shadow Veya |q The Crystal Tower/Stop Nocturnal
+'_PHASE 2._ After you kill her, Nocturnal will raise her as a more powerful Six-Handed version where she has greater AOE damage abilities. The most powerful of these is Singularity.
+'Meanwhile, use the Dawnbreaker's abilities when waves of mobs appear.
 step
 goto crystaltower_top02_base 54.85,55.68
-'Press _E_ to Use _Transparent Law_
-|tip Manually skip to the next step.
+'Press _E_ to Use _Transparent Law_ |q The Crystal Tower/Reforge Transparent Law
 step
 goto crystaltower_top02_base 50.01,49.56
-talk Valsirenn
-|tip Manually skip to the next step.
+talk Valsirenn |q The Crystal Tower/Talk to Valsirenn
 step
 goto crystaltower_top02_base 47.89,47.98
-'Press _E_ to Use _Portal to Artaeum_
-|tip Manually skip to the next step.
+'Press _E_ to Use _Portal to Artaeum_ |q The Crystal Tower/Leave the Crystal Tower
 step
-goto dreamingcave01_base 58.25,40.31
+goto dreamingcave01_base 57.18,40.95
 talk Sotha Sil
-|tip Manually skip to the next step.
+turnin The Crystal Tower
 step
 goto dreamingcave01_base 75.61,49.08
 talk Valsirenn
@@ -21468,58 +20948,59 @@ goto artaeum_base 64.98,26.62
 |tip Manually skip to the next step.
 step
 goto dreamingcave02_base 42.93,59.36
-talk Oriandra
-|tip Manually skip to the next step.
+talk Oriandra |q A New Alliance/Talk to Oriandra
 step
 goto dreamingcave02_base 15.94,42.47
 'Press _E_ to Use _Portal to Sotha Sil's Study_
 |tip Manually skip to the next step.
 step
 goto dreamingcave03_base 25.24,49.52
-talk Sotha Sil
-|tip Manually skip to the next step.
+talk Sotha Sil |q A New Alliance/Talk to Sotha Sil
 step
 'Open your map. Right click twice to bring up the Universe map. Select Tamriel. Select Summerset.
 click Alinor Wayshrine
 'Travel to the _Alinor_ Wayshrine
 |tip Manually skip to the next step.
 step
-goto alinor_base 50.01,70.33
-'Continue up the stairs from here
-|tip Manually skip to the next step.
+goto alinor_base 49.51,70.14
 step
-goto alinor_base 47.15,77.36
-'Continue up the stairs and follow the path across the bridge to the Alinor castle
-|tip Manually skip to the next step.
+goto alinor_base 42.27,76.34
+step
+goto alinor_base 50.35,79.04
+step
+goto alinor_base 51.15,86.01
+step
+goto alinor_base 56.67,85.58
+step
+goto alinor_base 64.50,46.25
+'Go to the Royal Palace in Alinor |q A New Alliance/Go to the Royal Palace in Alinor
+step
+goto alinor_base 64.35,46.95
+talk Oriandra |q A New Alliance/Talk to Oriandra
 step
 goto alinor_base 64.50,46.25
 click Alinor's Royal Palace
-|tip Manually skip to the next step.
-step
-goto alinor_base 64.35,46.95
-talk Oriandra
-|tip Manually skip to the next step.
-step
-goto alinor_base 64.49,46.29
-click Alinor Royal Palace
 |tip Manually skip to the next step.
 step
 goto alinorroyalpalace1_base 63.12,64.13
 click Council Chamber
 |tip Manually skip to the next step.
 step
-goto alinorroyalpalace1_base 77.17,67.94
-talk Sapiarch Larnatille
-'Select either option
-|tip Manually skip to the next step.
+goto alinorroyalpalace1_base 72.36,64.80
+'Attend the Palace Meeting |q A New Alliance/Attend the Palace Meeting
 step
 goto alinorroyalpalace1_base 77.17,67.94
-talk Sapiarch Larnatille
-|tip Manually skip to the next step.
+talk Sapiarch Larnatille |q A New Alliance/Talk to Sapiarch Larnatille
+'Select either option
+step
+goto alinorroyalpalace1_base 77.17,67.94
+'Listen to Your Allies |q A New Alliance/Listen to Your Allies
+step
+goto alinorroyalpalace1_base 77.17,67.94
+talk Sapiarch Larnatille |q A New Alliance/Talk to Sapiarch Larnatille
 step
 goto alinorroyalpalace1_base 80.53,62.67
-talk Valsirenn
-|tip Manually skip to the next step.
+talk Valsirenn |q A New Alliance/Talk to Valsirenn
 step
 goto alinorroyalpalace1_base 67.77,64.86
 'Press _E_ to Open _Palace Throne Room_
@@ -21530,7 +21011,7 @@ step
 step
 goto alinorroyalpalace1_base 41.24,27.70
 talk Razum-dar
-|tip Manually skip to the next step.
+turnin A New Alliance
 step
 'Congratulations, you have completed the Summerset guide!
 ]])

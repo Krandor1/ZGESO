@@ -2,7 +2,7 @@
 
 <img src="https://i.imgur.com/WCpaGMC.png">
 
-A Public Domain leveling guide produced by Zygor Guides, updated and maintained by Hydra9268. The purpose of this project is to add leveling guides for new content and extend the life for as long as ESO is available. Now working on a guide for Elsweyr.
+A Public Domain leveling guide produced by Zygor Guides, updated and maintained by Hydra9268. The purpose of this project is to add leveling guides for new content and extend the life for as long as ESO is available. Now working on a complete revamp for my original Summerset guide.
 
 No longer supported references:
 * Announcement: https://zygorguides.com/blog/zygor-guides-elder-scrolls-online-guides-going-free-use/
@@ -13,12 +13,19 @@ No longer supported references:
 Install through the excellent add-on manager <a href="https://minion.mmoui.com/" target="blank">Minion</a>
 
 ### 7/27 Update: Elsweyr Guide Out Now!
-### 8/12 Update: API version now supports Scalebreaker
 
 <img src="https://i.imgur.com/3PSp7pg.png">
 <i>artwork &copy; ZeniMax Media</i>
 
-### Coming Soon: Revamped and Remastered Summerset guide
+### Recent Updates
+
+* 11/2 Update: API version now supports Dragonhold
+* 8/12 Update: API version now supports Scalebreaker
+
+### Coming Soon
+
+* Revamped and Remastered Summerset guide
+
 
 # Development Guide
 
@@ -63,7 +70,7 @@ For example, 1.4.96
 
 `/` = Placed on the same line after `|q`, the slash checks for the completed task in the Quest Journal based on the current step's quest. Note: Must match word-for-word, space-for-space to register as completed.
 
-`|tip` = Handler for providing small tips
+`|tip` = Handler for displaying tips in a small font
 
 `|next Aldmeri Dominion Leveling Guides\\Khenarthi's Roost` = Instructs ZGESO to skip to another guide
 * `next` = Handler that tells the guide to load another guide
@@ -77,7 +84,7 @@ For example<br>
 `|only if ZGV.Utils.GetPlayerPreciseLevel() < 6 and _G.GetCurrentMapZoneIndex() == 712`<br>
 Only allow this step if the player's precise level is less than 6 and the current map zone index equals 712 (which is Elsweyr)
 
-`|or` = Handler for dialog choices (Note: you need to put the |or handler on eaach choice)
+`|or` = Handler for dialog choices (Note: you need to put the |or handler on each choice)
 
 For example<br>
 ```
